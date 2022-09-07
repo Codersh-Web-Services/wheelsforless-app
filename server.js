@@ -6,18 +6,28 @@ import express from "express";
 const app = express();
 
 import axios from "axios";
-
+console.log(process.env.STORE_API_URL);
 axios
-  .post(
-    "https://httpbin.org/post",
-    { x: 1 },
-    {
-      headers: {
-        "Content-Type": "multipart/form-data",
-      },
-    }
-  )
-  .then(({ data }) => console.log(data));
+  .get(`${process.env.STORE_API_URL}/products?limit=1`, {
+    headers: {
+      "Content-Type": "application/json",
+      SecureURL: process.env.STORE_URL,
+      PrivateKey: process.env.PRIVATE_KEY,
+      Token: process.env.AUTH_TOKEN,
+    },
+  })
+  .then(function ({ data }) {
+    // handle success
+    const { ExtraField10: filterfield } = data[0];
+    console.log(filterfield);
+  })
+  .catch(function (error) {
+    // handle error
+    console.log(error);
+  })
+  .then(function () {
+    // always executed
+  });
 
 // express routes
 app.get("/", (req, res) => {
