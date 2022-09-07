@@ -1,0 +1,9 @@
+Wheelpros_data:
+    years :  [2010...]
+    make : [Acura...]
+    model : [MDX...]
+    
+
+length of the years array can be fetched and compared with the previously fetched years
+Wheelsforless_store:
+    products : [sku, completed: boolean...]
