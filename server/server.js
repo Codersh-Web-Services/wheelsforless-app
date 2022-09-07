@@ -10,9 +10,7 @@ const client = new MongoClient(uri, {
   serverApi: ServerApiVersion.v1,
 });
 client.connect(async (err) => {
-  const collection = client
-    .db("WheelPros_data")
-    .collection("last_years_fetched");
+  const collection = client.db("WheelPros_data").collection("wheels");
   // perform actions on the collection object
   const findResult = await collection.find({}).toArray();
   console.log("Found documents =>", findResult);
