@@ -3,6 +3,7 @@ import * as dotenv from "dotenv"; // see https://github.com/motdotla/dotenv#how-
 dotenv.config();
 import { client } from "./db/connection.js";
 import axios from "axios";
+import https from "https";
 
 client.connect(async (err) => {
   let collection = client.db("WheelPros_data").collection("auth");
@@ -115,60 +116,65 @@ client.connect(async (err) => {
           // always executed
         });
     });
+    // Fetches Wheelpros vehicle makes
+    const makeDataFromDB = await collection
+      .find({ makeData: { $exists: true } })
+      .toArray();
+
+    makeDataFromDB.forEach(async (make, i) => {
+      console.log(`Gettings models :  ${i} of ${makeDataFromDB.length}`);
+      setTimeout(
+        async () =>
+          await axios
+            .get(
+              `${process.env.PROD_API_URL}/vehicles/v1/years/${make.parent}/makes/${make.make}/models`,
+              {
+                headers: {
+                  Authorization: `Bearer ${token}`,
+                  "Content-Type": "application/json",
+                },
+              }
+            )
+            .then(async function ({ data }) {
+              // handle success
+              let models = data;
+              const modelArr = [];
+              models.forEach((model, index) => {
+                modelArr.push({
+                  model,
+                  parent: make.parent,
+                  modelData: `${make.parent};${make.make};${model}`,
+                });
+              });
+              await collection.insertMany(modelArr);
+            })
+            .catch(function (error) {
+              // handle error
+              console.log(error);
+            })
+            .then(function () {
+              // always executed
+            }),
+        200
+      );
+    });
   } else {
     console.log("no need to update years");
   }
-  // Fetches Wheelpros vehicle makes
-  const makeDataFromDB = await collection
-    .find({ makeData: { $exists: true } })
-    .toArray();
 
-  makeDataFromDB.forEach(async (make, i) => {
-    console.log(`Gettings makes :  ${i} of ${makeDataFromDB.length}`);
-    setTimeout(
-      async () =>
-        await axios
-          .get(
-            `${process.env.PROD_API_URL}/vehicles/v1/years/${make.parent}/makes/${make.make}/models`,
-            {
-              headers: {
-                Authorization: `Bearer ${token}`,
-                "Content-Type": "application/json",
-              },
-            }
-          )
-          .then(async function ({ data }) {
-            // handle success
-            let models = data;
-            const modelArr = [];
-            models.forEach((model, index) => {
-              modelArr.push({
-                model,
-                parent: make.parent,
-                modelData: `${make.parent};${make.make};${model}`,
-              });
-            });
-            await collection.insertMany(modelArr);
-          })
-          .catch(function (error) {
-            // handle error
-            console.log(error);
-          })
-          .then(function () {
-            // always executed
-          }),
-      200
-    );
-  });
+  // await  client.close();
 
-  // Fetches Wheelpros vehicle models
+  // Fetches Wheelpros vehicle submodels
   // axios
-  //   .get(`${process.env.PROD_API_URL}/years/${year}/makes/${make}/models`, {
-  //     headers: {
-  //       Authorization: `Bearer ${process.env.WHEELPROS_TOKEN}`,
-  //       "Content-Type": "application/json",
-  //     },
-  //   })
+  //   .get(
+  //     `${process.env.PROD_API_URL}/years/${year}/makes/${make}/models/${submodel}/`,
+  //     {
+  //       headers: {
+  //         Authorization: `Bearer ${process.env.WHEELPROS_TOKEN}`,
+  //         "Content-Type": "application/json",
+  //       },
+  //     }
+  //   )
   //   .then(function ({ data }) {
   //     // handle success
   //     let years = data;
@@ -182,76 +188,78 @@ client.connect(async (err) => {
   //     // always executed
   //   });
 
-  // await  client.close();
+  // Fetches Wheelpros filtered Wheels
+  // axios
+  //   .get(
+  //     `${process.env.PROD_API_URL}https://api.wheelpros.com/products/v1/search/wheel?years=${year}&makes=${make}&=models`,
+  //     {
+  //       headers: {
+  //         Authorization: `Bearer ${process.env.WHEELPROS_TOKEN}`,
+  //         "Content-Type": "application/json",
+  //       },
+  //     }
+  //   )
+  //   .then(function ({ data }) {
+  //     // handle success
+  //     let years = data;
+  //     console.log(years);
+  //   })
+  //   .catch(function (error) {
+  //     // handle error
+  //     console.log(error);
+  //   })
+  //   .then(function () {
+  //     // always executed
+  //   });
+
+  collection = client.db("WheelPros_data").collection("wheelforless_backup");
+
+  // Fetches Shift4Shop store products
+  var offset = 0;
+
+  const fetch3dcart = () => {
+    try {
+      const agent = new https.Agent({
+        rejectUnauthorized: false,
+      });
+
+      axios
+        .get(
+          `${process.env.STORE_API_URL}/products?limit=200&offset=${offset}`,
+
+          {
+            httpsAgent: agent,
+            headers: {
+              "Content-Type": "application/json",
+              SecureURL: process.env.STORE_URL,
+              PrivateKey: process.env.PRIVATE_KEY,
+              Token: process.env.AUTH_TOKEN,
+            },
+          }
+        )
+        .then(async function ({ data }) {
+          // handle success
+          offset += 200;
+          console.log(offset);
+          // const { ExtraField10: filterfield } = data[0];
+          let DataArr = [];
+          data.forEach((e) => {
+            DataArr.push({ sku: e.SKUInfo.SKU, filter: e.ExtraField10 });
+          });
+          await collection.insertMany(DataArr);
+          await fetch3dcart();
+        })
+        .catch(function (error) {
+          // handle error
+          console.log(error);
+          return;
+        })
+        .then(function () {
+          // always executed
+        });
+    } catch (error) {
+      console.log(error);
+    }
+  };
+  fetch3dcart();
 });
-
-// Fetches Wheelpros vehicle submodels
-// axios
-//   .get(
-//     `${process.env.PROD_API_URL}/years/${year}/makes/${make}/models/${submodel}/`,
-//     {
-//       headers: {
-//         Authorization: `Bearer ${process.env.WHEELPROS_TOKEN}`,
-//         "Content-Type": "application/json",
-//       },
-//     }
-//   )
-//   .then(function ({ data }) {
-//     // handle success
-//     let years = data;
-//     console.log(years);
-//   })
-//   .catch(function (error) {
-//     // handle error
-//     console.log(error);
-//   })
-//   .then(function () {
-//     // always executed
-//   });
-
-// Fetches Wheelpros filtered Wheels
-// axios
-//   .get(
-//     `${process.env.PROD_API_URL}https://api.wheelpros.com/products/v1/search/wheel?years=${year}&makes=${make}&=models`,
-//     {
-//       headers: {
-//         Authorization: `Bearer ${process.env.WHEELPROS_TOKEN}`,
-//         "Content-Type": "application/json",
-//       },
-//     }
-//   )
-//   .then(function ({ data }) {
-//     // handle success
-//     let years = data;
-//     console.log(years);
-//   })
-//   .catch(function (error) {
-//     // handle error
-//     console.log(error);
-//   })
-//   .then(function () {
-//     // always executed
-//   });
-
-// Fetches Shift4Shop store products
-// axios
-//   .get(`${process.env.STORE_API_URL}/products?limit=1`, {
-//     headers: {
-//       "Content-Type": "application/json",
-//       SecureURL: process.env.STORE_URL,
-//       PrivateKey: process.env.PRIVATE_KEY,
-//       Token: process.env.AUTH_TOKEN,
-//     },
-//   })
-//   .then(function ({ data }) {
-//     // handle success
-//     const { ExtraField10: filterfield } = data[0];
-//     console.log(filterfield);
-//   })
-//   .catch(function (error) {
-//     // handle error
-//     console.log(error);
-//   })
-//   .then(function () {
-//     // always executed
-//   });
