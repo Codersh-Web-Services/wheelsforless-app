@@ -125,16 +125,16 @@ client.connect(async (err) => {
   }
  // Fetches Wheelpros vehicle makes
  const makeDataFromDB = await collection
- .find({ makeData: { $exists: true } })
+ .find({ modelData: { $exists: true } })
  .toArray();
-//  console.log(makeDataFromDB)
+ console.log(makeDataFromDB.length)
 
 const sleep = (delay) => {
   return new Promise(function(resolve) {
     setTimeout(resolve, delay);
   });
 }
-// if (false) 
+if (false) 
 makeDataFromDB.forEach( async (make, i) => {
  console.log(`Working on Makes Array to populate models :  ${i} of ${makeDataFromDB.length}`);
     await axios.get(
@@ -157,7 +157,7 @@ makeDataFromDB.forEach( async (make, i) => {
           modelData: `${make.parent};${make.make};${model}`,
         });
       
-
+        console.clear();
         console.log(`Staging push of models to db : ${index} of  ${models.length}`)
       });
       await collection.insertMany(modelArr);
