@@ -3,7 +3,9 @@ import * as dotenv from "dotenv"; // see https://github.com/motdotla/dotenv#how-
 dotenv.config();
 import { client } from "./db/connection.js";
 import axios from "axios";
+import axiosThrottle from 'axios-request-throttle'
 import https from "https";
+axiosThrottle.use(axios, { requestsPerSecond: 1 });
 
 client.connect(async (err) => {
   let collection = client.db("WheelPros_data").collection("auth");
@@ -83,7 +85,8 @@ client.connect(async (err) => {
       });
 
     yearsFromDB.forEach(async (year, i) => {
-      console.log(`Getting makes:  ${i} of ${yearsFromDB.length}`);
+
+       console.log(`Getting makes:  ${i} of ${yearsFromDB.length}`);
       await axios
         .get(
           `${process.env.PROD_API_URL}/vehicles/v1/years/${year.year}/makes`,
@@ -116,51 +119,60 @@ client.connect(async (err) => {
           // always executed
         });
     });
-    // Fetches Wheelpros vehicle makes
-    const makeDataFromDB = await collection
-      .find({ makeData: { $exists: true } })
-      .toArray();
-
-    makeDataFromDB.forEach(async (make, i) => {
-      console.log(`Gettings models :  ${i} of ${makeDataFromDB.length}`);
-      setTimeout(
-        async () =>
-          await axios
-            .get(
-              `${process.env.PROD_API_URL}/vehicles/v1/years/${make.parent}/makes/${make.make}/models`,
-              {
-                headers: {
-                  Authorization: `Bearer ${token}`,
-                  "Content-Type": "application/json",
-                },
-              }
-            )
-            .then(async function ({ data }) {
-              // handle success
-              let models = data;
-              const modelArr = [];
-              models.forEach((model, index) => {
-                modelArr.push({
-                  model,
-                  parent: make.parent,
-                  modelData: `${make.parent};${make.make};${model}`,
-                });
-              });
-              await collection.insertMany(modelArr);
-            })
-            .catch(function (error) {
-              // handle error
-              console.log(error);
-            })
-            .then(function () {
-              // always executed
-            }),
-        200
-      );
-    });
+   
   } else {
     console.log("no need to update years");
   }
+ // Fetches Wheelpros vehicle makes
+ const makeDataFromDB = await collection
+ .find({ makeData: { $exists: true } })
+ .toArray();
+//  console.log(makeDataFromDB)
+
+const sleep = (delay) => {
+  return new Promise(function(resolve) {
+    setTimeout(resolve, delay);
+  });
+}
+// if (false) 
+makeDataFromDB.forEach( async (make, i) => {
+ console.log(`Working on Makes Array to populate models :  ${i} of ${makeDataFromDB.length}`);
+    await axios.get(
+      `${process.env.PROD_API_URL}/vehicles/v1/years/${make.parent}/makes/${make.make}/models`,
+      {
+        headers: {
+          Authorization: `Bearer ${token}`,
+          "Content-Type": "application/json",
+        },
+      }
+    )
+    .then(async function ({ data }) {
+      // handle success
+      let models = data;
+      const modelArr = [];
+      models.forEach((model, index) => {
+        modelArr.push({
+          model,
+          parent: make.parent,
+          modelData: `${make.parent};${make.make};${model}`,
+        });
+      
+
+        console.log(`Staging push of models to db : ${index} of  ${models.length}`)
+      });
+      await collection.insertMany(modelArr);
+    })
+    .catch(function (error) {
+      // handle error
+      console.log(error);
+    })
+    .then(function () {
+      // always executed
+    })
+    
+   
+});
+console.log("Got all the models")
 
   // await  client.close();
 
@@ -212,9 +224,9 @@ client.connect(async (err) => {
   //     // always executed
   //   });
 
-  collection = client.db("WheelPros_data").collection("wheelforless_backup");
-
+  if (false) {
   // Fetches Shift4Shop store products
+  collection = client.db("WheelPros_data").collection("wheelforless_backup");
   var offset = 0;
 
   const fetch3dcart = () => {
@@ -262,4 +274,5 @@ client.connect(async (err) => {
     }
   };
   fetch3dcart();
+}
 });
