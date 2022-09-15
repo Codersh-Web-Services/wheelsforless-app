@@ -1,0 +1,2563 @@
+
+> wheelsforless-app@1.0.0 start
+> nodemon ./server/server.js
+
+[33m[nodemon] 2.0.19[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,json[39m
+[32m[nodemon] starting `node ./server/server.js`[39m
+91
+years 91
+Getting makes:  0 of 91
+Getting makes:  1 of 91
+Getting makes:  2 of 91
+Getting makes:  3 of 91
+Getting makes:  4 of 91
+Getting makes:  5 of 91
+Getting makes:  6 of 91
+Getting makes:  7 of 91
+Getting makes:  8 of 91
+Getting makes:  9 of 91
+Getting makes:  10 of 91
+Getting makes:  11 of 91
+Getting makes:  12 of 91
+Getting makes:  13 of 91
+Getting makes:  14 of 91
+Getting makes:  15 of 91
+Getting makes:  16 of 91
+Getting makes:  17 of 91
+Getting makes:  18 of 91
+Getting makes:  19 of 91
+Getting makes:  20 of 91
+Getting makes:  21 of 91
+Getting makes:  22 of 91
+Getting makes:  23 of 91
+Getting makes:  24 of 91
+Getting makes:  25 of 91
+Getting makes:  26 of 91
+Getting makes:  27 of 91
+Getting makes:  28 of 91
+Getting makes:  29 of 91
+Getting makes:  30 of 91
+Getting makes:  31 of 91
+Getting makes:  32 of 91
+Getting makes:  33 of 91
+Getting makes:  34 of 91
+Getting makes:  35 of 91
+Getting makes:  36 of 91
+Getting makes:  37 of 91
+Getting makes:  38 of 91
+Getting makes:  39 of 91
+Getting makes:  40 of 91
+Getting makes:  41 of 91
+Getting makes:  42 of 91
+Getting makes:  43 of 91
+Getting makes:  44 of 91
+Getting makes:  45 of 91
+Getting makes:  46 of 91
+Getting makes:  47 of 91
+Getting makes:  48 of 91
+Getting makes:  49 of 91
+Getting makes:  50 of 91
+Getting makes:  51 of 91
+Getting makes:  52 of 91
+Getting makes:  53 of 91
+Getting makes:  54 of 91
+Getting makes:  55 of 91
+Getting makes:  56 of 91
+Getting makes:  57 of 91
+Getting makes:  58 of 91
+Getting makes:  59 of 91
+Getting makes:  60 of 91
+Getting makes:  61 of 91
+Getting makes:  62 of 91
+Getting makes:  63 of 91
+Getting makes:  64 of 91
+Getting makes:  65 of 91
+Getting makes:  66 of 91
+Getting makes:  67 of 91
+Getting makes:  68 of 91
+Getting makes:  69 of 91
+Getting makes:  70 of 91
+Getting makes:  71 of 91
+Getting makes:  72 of 91
+Getting makes:  73 of 91
+Getting makes:  74 of 91
+Getting makes:  75 of 91
+Getting makes:  76 of 91
+Getting makes:  77 of 91
+Getting makes:  78 of 91
+Getting makes:  79 of 91
+Getting makes:  80 of 91
+Getting makes:  81 of 91
+Getting makes:  82 of 91
+Getting makes:  83 of 91
+Getting makes:  84 of 91
+Getting makes:  85 of 91
+Getting makes:  86 of 91
+Getting makes:  87 of 91
+Getting makes:  88 of 91
+Getting makes:  89 of 91
+Getting makes:  90 of 91
+make data bois 0
+Got all the models
+0
+2194.3150000572205
+------------------Auth Granted------------------
+2196.6579999923706
+------------------Auth Granted------------------
+2198.7860000133514
+------------------Auth Granted------------------
+2200.6979999542236
+------------------Auth Granted------------------
+2202.6879999637604
+------------------Auth Granted------------------
+2204.661999940872
+------------------Auth Granted------------------
+2206.697000026703
+------------------Auth Granted------------------
+2208.675999879837
+------------------Auth Granted------------------
+2210.236000061035
+------------------Auth Granted------------------
+2212.6749999523163
+------------------Auth Granted------------------
+2214.263999938965
+------------------Auth Granted------------------
+2216.6870000362396
+------------------Auth Granted------------------
+2218.678999900818
+------------------Auth Granted------------------
+2220.7139999866486
+------------------Auth Granted------------------
+2222.2309999465942
+------------------Auth Granted------------------
+2224.798000097275
+------------------Auth Granted------------------
+2226.7000000476837
+------------------Auth Granted------------------
+2228.6849999427795
+------------------Auth Granted------------------
+2230.6819999217987
+------------------Auth Granted------------------
+2232.710000038147
+------------------Auth Granted------------------
+2234.6979999542236
+------------------Auth Granted------------------
+2236.7000000476837
+------------------Auth Granted------------------
+2238.71799993515
+------------------Auth Granted------------------
+2240.701999902725
+------------------Auth Granted------------------
+2242.691999912262
+------------------Auth Granted------------------
+2244.7539999485016
+------------------Auth Granted------------------
+2246.71799993515
+------------------Auth Granted------------------
+2248.6859998703003
+------------------Auth Granted------------------
+2250.71799993515
+------------------Auth Granted------------------
+2252.733999967575
+------------------Auth Granted------------------
+2254.819000005722
+------------------Auth Granted------------------
+2256.697000026703
+------------------Auth Granted------------------
+2258.704999923706
+------------------Auth Granted------------------
+2260.7269999980927
+------------------Auth Granted------------------
+2262.7039999961853
+------------------Auth Granted------------------
+2264.744999885559
+------------------Auth Granted------------------
+2266.7999999523163
+------------------Auth Granted------------------
+2268.7939999103546
+------------------Auth Granted------------------
+2270.744999885559
+------------------Auth Granted------------------
+2272.7109999656677
+------------------Auth Granted------------------
+2274.3280000686646
+------------------Auth Granted------------------
+2276.7419998645782
+------------------Auth Granted------------------
+2278.696000099182
+------------------Auth Granted------------------
+2280.734999895096
+------------------Auth Granted------------------
+2282.798000097275
+------------------Auth Granted------------------
+2284.7039999961853
+------------------Auth Granted------------------
+2286.7030000686646
+------------------Auth Granted------------------
+2288.7330000400543
+------------------Auth Granted------------------
+2290.7200000286102
+------------------Auth Granted------------------
+2292.734999895096
+------------------Auth Granted------------------
+2294.7009999752045
+------------------Auth Granted------------------
+2296.321000099182
+------------------Auth Granted------------------
+2298.736999988556
+------------------Auth Granted------------------
+2300.7149999141693
+------------------Auth Granted------------------
+2302.7190001010895
+------------------Auth Granted------------------
+2304.7269999980927
+------------------Auth Granted------------------
+2306.7990000247955
+------------------Auth Granted------------------
+2308.7419998645782
+------------------Auth Granted------------------
+2310.7560000419617
+------------------Auth Granted------------------
+2312.8120000362396
+------------------Auth Granted------------------
+2314.795000076294
+------------------Auth Granted------------------
+2316.87700009346
+------------------Auth Granted------------------
+2318.34299993515
+------------------Auth Granted------------------
+2320.7309999465942
+------------------Auth Granted------------------
+2322.7379999160767
+------------------Auth Granted------------------
+2324.87299990654
+------------------Auth Granted------------------
+2326.3629999160767
+------------------Auth Granted------------------
+2328.7850000858307
+------------------Auth Granted------------------
+2330.7539999485016
+------------------Auth Granted------------------
+2332.7290000915527
+------------------Auth Granted------------------
+2334.7649998664856
+------------------Auth Granted------------------
+2336.7890000343323
+------------------Auth Granted------------------
+2338.7690000534058
+------------------Auth Granted------------------
+2340.744999885559
+------------------Auth Granted------------------
+2342.3239998817444
+------------------Auth Granted------------------
+2344.869999885559
+------------------Auth Granted------------------
+2346.7799999713898
+------------------Auth Granted------------------
+2348.786999940872
+------------------Auth Granted------------------
+2350.7690000534058
+------------------Auth Granted------------------
+2352.792999982834
+------------------Auth Granted------------------
+2354.7490000724792
+------------------Auth Granted------------------
+2356.332000017166
+------------------Auth Granted------------------
+2358.7860000133514
+------------------Auth Granted------------------
+2360.3440001010895
+------------------Auth Granted------------------
+2362.848999977112
+------------------Auth Granted------------------
+2364.3259999752045
+------------------Auth Granted------------------
+2367.7809998989105
+------------------Auth Granted------------------
+2368.757999897003
+------------------Auth Granted------------------
+2370.4110000133514
+------------------Auth Granted------------------
+2372.359999895096
+------------------Auth Granted------------------
+2374.766000032425
+------------------Auth Granted------------------
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node ./server/server.js`[39m
+no need to update years
+years 91
+Getting makes:  0 of 91
+Getting makes:  1 of 91
+Getting makes:  2 of 91
+Getting makes:  3 of 91
+Getting makes:  4 of 91
+Getting makes:  5 of 91
+Getting makes:  6 of 91
+Getting makes:  7 of 91
+Getting makes:  8 of 91
+Getting makes:  9 of 91
+Getting makes:  10 of 91
+Getting makes:  11 of 91
+Getting makes:  12 of 91
+Getting makes:  13 of 91
+Getting makes:  14 of 91
+Getting makes:  15 of 91
+Getting makes:  16 of 91
+Getting makes:  17 of 91
+Getting makes:  18 of 91
+Getting makes:  19 of 91
+Getting makes:  20 of 91
+Getting makes:  21 of 91
+Getting makes:  22 of 91
+Getting makes:  23 of 91
+Getting makes:  24 of 91
+Getting makes:  25 of 91
+Getting makes:  26 of 91
+Getting makes:  27 of 91
+Getting makes:  28 of 91
+Getting makes:  29 of 91
+Getting makes:  30 of 91
+Getting makes:  31 of 91
+Getting makes:  32 of 91
+Getting makes:  33 of 91
+Getting makes:  34 of 91
+Getting makes:  35 of 91
+Getting makes:  36 of 91
+Getting makes:  37 of 91
+Getting makes:  38 of 91
+Getting makes:  39 of 91
+Getting makes:  40 of 91
+Getting makes:  41 of 91
+Getting makes:  42 of 91
+Getting makes:  43 of 91
+Getting makes:  44 of 91
+Getting makes:  45 of 91
+Getting makes:  46 of 91
+Getting makes:  47 of 91
+Getting makes:  48 of 91
+Getting makes:  49 of 91
+Getting makes:  50 of 91
+Getting makes:  51 of 91
+Getting makes:  52 of 91
+Getting makes:  53 of 91
+Getting makes:  54 of 91
+Getting makes:  55 of 91
+Getting makes:  56 of 91
+Getting makes:  57 of 91
+Getting makes:  58 of 91
+Getting makes:  59 of 91
+Getting makes:  60 of 91
+Getting makes:  61 of 91
+Getting makes:  62 of 91
+Getting makes:  63 of 91
+Getting makes:  64 of 91
+Getting makes:  65 of 91
+Getting makes:  66 of 91
+Getting makes:  67 of 91
+Getting makes:  68 of 91
+Getting makes:  69 of 91
+Getting makes:  70 of 91
+Getting makes:  71 of 91
+Getting makes:  72 of 91
+Getting makes:  73 of 91
+Getting makes:  74 of 91
+Getting makes:  75 of 91
+Getting makes:  76 of 91
+Getting makes:  77 of 91
+Getting makes:  78 of 91
+Getting makes:  79 of 91
+Getting makes:  80 of 91
+Getting makes:  81 of 91
+Getting makes:  82 of 91
+Getting makes:  83 of 91
+Getting makes:  84 of 91
+Getting makes:  85 of 91
+Getting makes:  86 of 91
+Getting makes:  87 of 91
+Getting makes:  88 of 91
+Getting makes:  89 of 91
+Getting makes:  90 of 91
+make data bois 1
+Got all the models
+0
+2450.196000099182
+------------------Auth Granted------------------
+2452.415999889374
+------------------Auth Granted------------------
+2454.4639999866486
+------------------Auth Granted------------------
+2456.0039999485016
+------------------Auth Granted------------------
+2458.4670000076294
+------------------Auth Granted------------------
+2460.042999982834
+------------------Auth Granted------------------
+2462.451999902725
+------------------Auth Granted------------------
+2464.003000020981
+------------------Auth Granted------------------
+2466.4879999160767
+------------------Auth Granted------------------
+2468.4059998989105
+------------------Auth Granted------------------
+2470.4319999217987
+------------------Auth Granted------------------
+2472.5230000019073
+------------------Auth Granted------------------
+2474.4609999656677
+------------------Auth Granted------------------
+2476.4479999542236
+------------------Auth Granted------------------
+2478.4110000133514
+------------------Auth Granted------------------
+2480.0049998760223
+------------------Auth Granted------------------
+2482.4879999160767
+------------------Auth Granted------------------
+2484.444000005722
+------------------Auth Granted------------------
+2486.4100000858307
+------------------Auth Granted------------------
+2488.457000017166
+------------------Auth Granted------------------
+2490.420000076294
+------------------Auth Granted------------------
+2492.5
+------------------Auth Granted------------------
+2494.513999938965
+------------------Auth Granted------------------
+2496.4779999256134
+------------------Auth Granted------------------
+2498.4270000457764
+------------------Auth Granted------------------
+2500.454999923706
+------------------Auth Granted------------------
+2502.4790000915527
+------------------Auth Granted------------------
+2504.451999902725
+------------------Auth Granted------------------
+2506.039999961853
+------------------Auth Granted------------------
+2508.0090000629425
+------------------Auth Granted------------------
+2510.053999900818
+------------------Auth Granted------------------
+2512.5739998817444
+------------------Auth Granted------------------
+2514.0279998779297
+------------------Auth Granted------------------
+2516.473999977112
+------------------Auth Granted------------------
+2518.4939999580383
+------------------Auth Granted------------------
+2520.4509999752045
+------------------Auth Granted------------------
+2522.441999912262
+------------------Auth Granted------------------
+2524.552999973297
+------------------Auth Granted------------------
+2526.5230000019073
+------------------Auth Granted------------------
+2528.5299999713898
+------------------Auth Granted------------------
+2530.5190000534058
+------------------Auth Granted------------------
+2532.548000097275
+------------------Auth Granted------------------
+2534.510999917984
+------------------Auth Granted------------------
+2536.1640000343323
+------------------Auth Granted------------------
+2538.5060000419617
+------------------Auth Granted------------------
+2540.540999889374
+------------------Auth Granted------------------
+2542.571000099182
+------------------Auth Granted------------------
+2544.489000082016
+------------------Auth Granted------------------
+2546.071000099182
+------------------Auth Granted------------------
+2548.588000059128
+------------------Auth Granted------------------
+2550.5090000629425
+------------------Auth Granted------------------
+2552.071000099182
+------------------Auth Granted------------------
+2554.5390000343323
+------------------Auth Granted------------------
+2556.4939999580383
+------------------Auth Granted------------------
+2558.496999979019
+------------------Auth Granted------------------
+2560.526999950409
+------------------Auth Granted------------------
+2562.661999940872
+------------------Auth Granted------------------
+2564.5179998874664
+------------------Auth Granted------------------
+2566.5520000457764
+------------------Auth Granted------------------
+2568.0729999542236
+------------------Auth Granted------------------
+2570.50200009346
+------------------Auth Granted------------------
+2572.555000066757
+------------------Auth Granted------------------
+2574.542000055313
+------------------Auth Granted------------------
+2576.0920000076294
+------------------Auth Granted------------------
+2578.5439999103546
+------------------Auth Granted------------------
+2580.5039999485016
+------------------Auth Granted------------------
+2582.071000099182
+------------------Auth Granted------------------
+2584.553999900818
+------------------Auth Granted------------------
+2586.5039999485016
+------------------Auth Granted------------------
+2588.6459999084473
+------------------Auth Granted------------------
+2590.1299998760223
+------------------Auth Granted------------------
+2592.5190000534058
+------------------Auth Granted------------------
+2594.095999956131
+------------------Auth Granted------------------
+2596.579999923706
+------------------Auth Granted------------------
+2598.585000038147
+------------------Auth Granted------------------
+2600.539999961853
+------------------Auth Granted------------------
+2602.572000026703
+------------------Auth Granted------------------
+2604.111999988556
+------------------Auth Granted------------------
+2606.510999917984
+------------------Auth Granted------------------
+2608.178999900818
+------------------Auth Granted------------------
+2610.542999982834
+------------------Auth Granted------------------
+2612.5750000476837
+------------------Auth Granted------------------
+2614.154000043869
+------------------Auth Granted------------------
+2616.555000066757
+------------------Auth Granted------------------
+2618.5739998817444
+------------------Auth Granted------------------
+2620.15700006485
+------------------Auth Granted------------------
+2622.1399998664856
+------------------Auth Granted------------------
+2624.154000043869
+------------------Auth Granted------------------
+2626.7170000076294
+------------------Auth Granted------------------
+2628.12700009346
+------------------Auth Granted------------------
+2630.6480000019073
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  1
+2632.5810000896454
+------------------Auth Granted------------------
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node ./server/server.js`[39m
+no need to update years
+years 91
+make data bois 2943
+Got all the models
+1
+Staging push of models to db : 0 of  1
+2765.2109999656677
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  1
+2767.201999902725
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  2
+Staging push of models to db : 1 of  2
+2768.6440000534058
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  1
+2770.6500000953674
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  1
+2772.6419999599457
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  1
+2774.6399998664856
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  2
+Staging push of models to db : 1 of  2
+2777.098000049591
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  1
+2778.691999912262
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  3
+Staging push of models to db : 1 of  3
+Staging push of models to db : 2 of  3
+2780.6259999275208
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  1
+2783.0810000896454
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  2
+Staging push of models to db : 1 of  2
+2785.184000015259
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  2
+Staging push of models to db : 1 of  2
+2787.0390000343323
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  2
+Staging push of models to db : 1 of  2
+2789.167999982834
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  2
+Staging push of models to db : 1 of  2
+2791.0910000801086
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  3
+Staging push of models to db : 1 of  3
+Staging push of models to db : 2 of  3
+2792.65700006485
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  3
+Staging push of models to db : 1 of  3
+Staging push of models to db : 2 of  3
+2794.683000087738
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  3
+Staging push of models to db : 1 of  3
+Staging push of models to db : 2 of  3
+2797.2109999656677
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  4
+Staging push of models to db : 1 of  4
+Staging push of models to db : 2 of  4
+Staging push of models to db : 3 of  4
+2799.063999891281
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  1
+2800.6470000743866
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  1
+2803.135999917984
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  1
+2805.1059999465942
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  1
+2806.638999938965
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  1
+2809.12299990654
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  1
+2810.75200009346
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  1
+2813.1640000343323
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  1
+2815.1459999084473
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  1
+2817.085000038147
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  4
+Staging push of models to db : 1 of  4
+Staging push of models to db : 2 of  4
+Staging push of models to db : 3 of  4
+2818.6689999103546
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  4
+Staging push of models to db : 1 of  4
+Staging push of models to db : 2 of  4
+Staging push of models to db : 3 of  4
+2820.7549998760223
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  4
+Staging push of models to db : 1 of  4
+Staging push of models to db : 2 of  4
+Staging push of models to db : 3 of  4
+2823.12299990654
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  1
+2825.0999999046326
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  1
+2827.2379999160767
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  4
+Staging push of models to db : 1 of  4
+Staging push of models to db : 2 of  4
+Staging push of models to db : 3 of  4
+2829.0650000572205
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  5
+Staging push of models to db : 1 of  5
+Staging push of models to db : 2 of  5
+Staging push of models to db : 3 of  5
+Staging push of models to db : 4 of  5
+2831.1050000190735
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  1
+2833.1349999904633
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  1
+2835.0869998931885
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  4
+Staging push of models to db : 1 of  4
+Staging push of models to db : 2 of  4
+Staging push of models to db : 3 of  4
+2837.0889999866486
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  1
+2839.167999982834
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  1
+2841.138000011444
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  7
+Staging push of models to db : 1 of  7
+Staging push of models to db : 2 of  7
+Staging push of models to db : 3 of  7
+Staging push of models to db : 4 of  7
+Staging push of models to db : 5 of  7
+Staging push of models to db : 6 of  7
+2843.138999938965
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  4
+Staging push of models to db : 1 of  4
+Staging push of models to db : 2 of  4
+Staging push of models to db : 3 of  4
+2844.6819999217987
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  1
+2846.670000076294
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  1
+2849.0750000476837
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  5
+Staging push of models to db : 1 of  5
+Staging push of models to db : 2 of  5
+Staging push of models to db : 3 of  5
+Staging push of models to db : 4 of  5
+2850.809000015259
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  1
+2852.6930000782013
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  10
+Staging push of models to db : 1 of  10
+Staging push of models to db : 2 of  10
+Staging push of models to db : 3 of  10
+Staging push of models to db : 4 of  10
+Staging push of models to db : 5 of  10
+Staging push of models to db : 6 of  10
+Staging push of models to db : 7 of  10
+Staging push of models to db : 8 of  10
+Staging push of models to db : 9 of  10
+2854.6749999523163
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  2
+Staging push of models to db : 1 of  2
+2856.736999988556
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  2
+Staging push of models to db : 1 of  2
+2859.114000082016
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  2
+Staging push of models to db : 1 of  2
+2861.121999979019
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  1
+2863.1449999809265
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  1
+2865.1319999694824
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  1
+2867.244999885559
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  1
+2868.723000049591
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  1
+2871.121999979019
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  6
+Staging push of models to db : 1 of  6
+Staging push of models to db : 2 of  6
+Staging push of models to db : 3 of  6
+Staging push of models to db : 4 of  6
+Staging push of models to db : 5 of  6
+2873.098999977112
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  12
+Staging push of models to db : 1 of  12
+Staging push of models to db : 2 of  12
+Staging push of models to db : 3 of  12
+Staging push of models to db : 4 of  12
+Staging push of models to db : 5 of  12
+Staging push of models to db : 6 of  12
+Staging push of models to db : 7 of  12
+Staging push of models to db : 8 of  12
+Staging push of models to db : 9 of  12
+Staging push of models to db : 10 of  12
+Staging push of models to db : 11 of  12
+2875.167999982834
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  1
+2877.180999994278
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  2
+Staging push of models to db : 1 of  2
+2879.1930000782013
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  1
+2880.677999973297
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  1
+2882.670000076294
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  1
+2885.1419999599457
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  2
+Staging push of models to db : 1 of  2
+2886.690999984741
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  1
+2888.8020000457764
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  5
+Staging push of models to db : 1 of  5
+Staging push of models to db : 2 of  5
+Staging push of models to db : 3 of  5
+Staging push of models to db : 4 of  5
+2891.1349999904633
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  15
+Staging push of models to db : 1 of  15
+Staging push of models to db : 2 of  15
+Staging push of models to db : 3 of  15
+Staging push of models to db : 4 of  15
+Staging push of models to db : 5 of  15
+Staging push of models to db : 6 of  15
+Staging push of models to db : 7 of  15
+Staging push of models to db : 8 of  15
+Staging push of models to db : 9 of  15
+Staging push of models to db : 10 of  15
+Staging push of models to db : 11 of  15
+Staging push of models to db : 12 of  15
+Staging push of models to db : 13 of  15
+Staging push of models to db : 14 of  15
+2893.162999868393
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  1
+2895.1059999465942
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  1
+2896.731999874115
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  1
+2899.132999897003
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  5
+Staging push of models to db : 1 of  5
+Staging push of models to db : 2 of  5
+Staging push of models to db : 3 of  5
+Staging push of models to db : 4 of  5
+2901.138000011444
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  1
+2903.111000061035
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  15
+Staging push of models to db : 1 of  15
+Staging push of models to db : 2 of  15
+Staging push of models to db : 3 of  15
+Staging push of models to db : 4 of  15
+Staging push of models to db : 5 of  15
+Staging push of models to db : 6 of  15
+Staging push of models to db : 7 of  15
+Staging push of models to db : 8 of  15
+Staging push of models to db : 9 of  15
+Staging push of models to db : 10 of  15
+Staging push of models to db : 11 of  15
+Staging push of models to db : 12 of  15
+Staging push of models to db : 13 of  15
+Staging push of models to db : 14 of  15
+2905.0940001010895
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  2
+Staging push of models to db : 1 of  2
+2907.0999999046326
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  1
+2908.7200000286102
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  1
+2911.1240000724792
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  1
+2913.111000061035
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  1
+2914.670000076294
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  1
+2917.164999961853
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  5
+Staging push of models to db : 1 of  5
+Staging push of models to db : 2 of  5
+Staging push of models to db : 3 of  5
+Staging push of models to db : 4 of  5
+2919.173000097275
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  1
+2921.1470000743866
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  17
+Staging push of models to db : 1 of  17
+Staging push of models to db : 2 of  17
+Staging push of models to db : 3 of  17
+Staging push of models to db : 4 of  17
+Staging push of models to db : 5 of  17
+Staging push of models to db : 6 of  17
+Staging push of models to db : 7 of  17
+Staging push of models to db : 8 of  17
+Staging push of models to db : 9 of  17
+Staging push of models to db : 10 of  17
+Staging push of models to db : 11 of  17
+Staging push of models to db : 12 of  17
+Staging push of models to db : 13 of  17
+Staging push of models to db : 14 of  17
+Staging push of models to db : 15 of  17
+Staging push of models to db : 16 of  17
+2923.1289999485016
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  1
+2925.1169998645782
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  1
+2927.1299998760223
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  2
+Staging push of models to db : 1 of  2
+2929.106999874115
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  1
+2931.109999895096
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  6
+Staging push of models to db : 1 of  6
+Staging push of models to db : 2 of  6
+Staging push of models to db : 3 of  6
+Staging push of models to db : 4 of  6
+Staging push of models to db : 5 of  6
+2933.1549999713898
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  1
+2935.119999885559
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  5
+Staging push of models to db : 1 of  5
+Staging push of models to db : 2 of  5
+Staging push of models to db : 3 of  5
+Staging push of models to db : 4 of  5
+2937.2279999256134
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  1
+2939.141000032425
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  19
+Staging push of models to db : 1 of  19
+Staging push of models to db : 2 of  19
+Staging push of models to db : 3 of  19
+Staging push of models to db : 4 of  19
+Staging push of models to db : 5 of  19
+Staging push of models to db : 6 of  19
+Staging push of models to db : 7 of  19
+Staging push of models to db : 8 of  19
+Staging push of models to db : 9 of  19
+Staging push of models to db : 10 of  19
+Staging push of models to db : 11 of  19
+Staging push of models to db : 12 of  19
+Staging push of models to db : 13 of  19
+Staging push of models to db : 14 of  19
+Staging push of models to db : 15 of  19
+Staging push of models to db : 16 of  19
+Staging push of models to db : 17 of  19
+Staging push of models to db : 18 of  19
+2940.701999902725
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  1
+2943.098000049591
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  2
+Staging push of models to db : 1 of  2
+2945.1549999713898
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  1
+2947.175999879837
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  1
+2949.1470000743866
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  3
+Staging push of models to db : 1 of  3
+Staging push of models to db : 2 of  3
+2951.309000015259
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  1
+2953.178999900818
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  6
+Staging push of models to db : 1 of  6
+Staging push of models to db : 2 of  6
+Staging push of models to db : 3 of  6
+Staging push of models to db : 4 of  6
+Staging push of models to db : 5 of  6
+2954.71799993515
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  1
+2957.111999988556
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  6
+Staging push of models to db : 1 of  6
+Staging push of models to db : 2 of  6
+Staging push of models to db : 3 of  6
+Staging push of models to db : 4 of  6
+Staging push of models to db : 5 of  6
+2959.1459999084473
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  1
+2961.1529998779297
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  21
+Staging push of models to db : 1 of  21
+Staging push of models to db : 2 of  21
+Staging push of models to db : 3 of  21
+Staging push of models to db : 4 of  21
+Staging push of models to db : 5 of  21
+Staging push of models to db : 6 of  21
+Staging push of models to db : 7 of  21
+Staging push of models to db : 8 of  21
+Staging push of models to db : 9 of  21
+Staging push of models to db : 10 of  21
+Staging push of models to db : 11 of  21
+Staging push of models to db : 12 of  21
+Staging push of models to db : 13 of  21
+Staging push of models to db : 14 of  21
+Staging push of models to db : 15 of  21
+Staging push of models to db : 16 of  21
+Staging push of models to db : 17 of  21
+Staging push of models to db : 18 of  21
+Staging push of models to db : 19 of  21
+Staging push of models to db : 20 of  21
+2963.220999956131
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  1
+2965.1749999523163
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  3
+Staging push of models to db : 1 of  3
+Staging push of models to db : 2 of  3
+2966.753000020981
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  1
+2969.1210000514984
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  1
+2970.8450000286102
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  3
+Staging push of models to db : 1 of  3
+Staging push of models to db : 2 of  3
+2973.1870000362396
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  21
+Staging push of models to db : 1 of  21
+Staging push of models to db : 2 of  21
+Staging push of models to db : 3 of  21
+Staging push of models to db : 4 of  21
+Staging push of models to db : 5 of  21
+Staging push of models to db : 6 of  21
+Staging push of models to db : 7 of  21
+Staging push of models to db : 8 of  21
+Staging push of models to db : 9 of  21
+Staging push of models to db : 10 of  21
+Staging push of models to db : 11 of  21
+Staging push of models to db : 12 of  21
+Staging push of models to db : 13 of  21
+Staging push of models to db : 14 of  21
+Staging push of models to db : 15 of  21
+Staging push of models to db : 16 of  21
+Staging push of models to db : 17 of  21
+Staging push of models to db : 18 of  21
+Staging push of models to db : 19 of  21
+Staging push of models to db : 20 of  21
+2975.1900000572205
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  1
+2977.161999940872
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  1
+2979.2009999752045
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  3
+Staging push of models to db : 1 of  3
+Staging push of models to db : 2 of  3
+2980.7509999275208
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  1
+2983.148999929428
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  1
+2985.151000022888
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  7
+Staging push of models to db : 1 of  7
+Staging push of models to db : 2 of  7
+Staging push of models to db : 3 of  7
+Staging push of models to db : 4 of  7
+Staging push of models to db : 5 of  7
+Staging push of models to db : 6 of  7
+2987.21799993515
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  6
+Staging push of models to db : 1 of  6
+Staging push of models to db : 2 of  6
+Staging push of models to db : 3 of  6
+Staging push of models to db : 4 of  6
+Staging push of models to db : 5 of  6
+2989.2060000896454
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  1
+2991.1299998760223
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  1
+2992.779000043869
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  3
+Staging push of models to db : 1 of  3
+Staging push of models to db : 2 of  3
+2995.184000015259
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  1
+2997.1859998703003
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  1
+2999.1399998664856
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  4
+Staging push of models to db : 1 of  4
+Staging push of models to db : 2 of  4
+Staging push of models to db : 3 of  4
+3001.1349999904633
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  20
+Staging push of models to db : 1 of  20
+Staging push of models to db : 2 of  20
+Staging push of models to db : 3 of  20
+Staging push of models to db : 4 of  20
+Staging push of models to db : 5 of  20
+Staging push of models to db : 6 of  20
+Staging push of models to db : 7 of  20
+Staging push of models to db : 8 of  20
+Staging push of models to db : 9 of  20
+Staging push of models to db : 10 of  20
+Staging push of models to db : 11 of  20
+Staging push of models to db : 12 of  20
+Staging push of models to db : 13 of  20
+Staging push of models to db : 14 of  20
+Staging push of models to db : 15 of  20
+Staging push of models to db : 16 of  20
+Staging push of models to db : 17 of  20
+Staging push of models to db : 18 of  20
+Staging push of models to db : 19 of  20
+3003.180999994278
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  3
+Staging push of models to db : 1 of  3
+Staging push of models to db : 2 of  3
+3005.1749999523163
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  1
+3007.151999950409
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  1
+3009.2139999866486
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  9
+Staging push of models to db : 1 of  9
+Staging push of models to db : 2 of  9
+Staging push of models to db : 3 of  9
+Staging push of models to db : 4 of  9
+Staging push of models to db : 5 of  9
+Staging push of models to db : 6 of  9
+Staging push of models to db : 7 of  9
+Staging push of models to db : 8 of  9
+3011.1819999217987
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  7
+Staging push of models to db : 1 of  7
+Staging push of models to db : 2 of  7
+Staging push of models to db : 3 of  7
+Staging push of models to db : 4 of  7
+Staging push of models to db : 5 of  7
+Staging push of models to db : 6 of  7
+3013.3099999427795
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  1
+3015.180000066757
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  1
+3016.7279999256134
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  3
+Staging push of models to db : 1 of  3
+Staging push of models to db : 2 of  3
+3019.257999897003
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  1
+3020.7590000629425
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  1
+3022.760999917984
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  2
+Staging push of models to db : 1 of  2
+3025.1419999599457
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  1
+3027.194000005722
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  1
+3029.1870000362396
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  1
+3031.2379999160767
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  3
+Staging push of models to db : 1 of  3
+Staging push of models to db : 2 of  3
+3033.2379999160767
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  6
+Staging push of models to db : 1 of  6
+Staging push of models to db : 2 of  6
+Staging push of models to db : 3 of  6
+Staging push of models to db : 4 of  6
+Staging push of models to db : 5 of  6
+3034.7509999275208
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  1
+3037.1749999523163
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  4
+Staging push of models to db : 1 of  4
+Staging push of models to db : 2 of  4
+Staging push of models to db : 3 of  4
+3039.191999912262
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  20
+Staging push of models to db : 1 of  20
+Staging push of models to db : 2 of  20
+Staging push of models to db : 3 of  20
+Staging push of models to db : 4 of  20
+Staging push of models to db : 5 of  20
+Staging push of models to db : 6 of  20
+Staging push of models to db : 7 of  20
+Staging push of models to db : 8 of  20
+Staging push of models to db : 9 of  20
+Staging push of models to db : 10 of  20
+Staging push of models to db : 11 of  20
+Staging push of models to db : 12 of  20
+Staging push of models to db : 13 of  20
+Staging push of models to db : 14 of  20
+Staging push of models to db : 15 of  20
+Staging push of models to db : 16 of  20
+Staging push of models to db : 17 of  20
+Staging push of models to db : 18 of  20
+Staging push of models to db : 19 of  20
+3041.1849999427795
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  1
+3042.7850000858307
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  1
+3044.7569999694824
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  1
+3047.1849999427795
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  3
+Staging push of models to db : 1 of  3
+Staging push of models to db : 2 of  3
+3049.2060000896454
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  4
+Staging push of models to db : 1 of  4
+Staging push of models to db : 2 of  4
+Staging push of models to db : 3 of  4
+3050.776999950409
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  9
+Staging push of models to db : 1 of  9
+Staging push of models to db : 2 of  9
+Staging push of models to db : 3 of  9
+Staging push of models to db : 4 of  9
+Staging push of models to db : 5 of  9
+Staging push of models to db : 6 of  9
+Staging push of models to db : 7 of  9
+Staging push of models to db : 8 of  9
+3053.2330000400543
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  24
+Staging push of models to db : 1 of  24
+Staging push of models to db : 2 of  24
+Staging push of models to db : 3 of  24
+Staging push of models to db : 4 of  24
+Staging push of models to db : 5 of  24
+Staging push of models to db : 6 of  24
+Staging push of models to db : 7 of  24
+Staging push of models to db : 8 of  24
+Staging push of models to db : 9 of  24
+Staging push of models to db : 10 of  24
+Staging push of models to db : 11 of  24
+Staging push of models to db : 12 of  24
+Staging push of models to db : 13 of  24
+Staging push of models to db : 14 of  24
+Staging push of models to db : 15 of  24
+Staging push of models to db : 16 of  24
+Staging push of models to db : 17 of  24
+Staging push of models to db : 18 of  24
+Staging push of models to db : 19 of  24
+Staging push of models to db : 20 of  24
+Staging push of models to db : 21 of  24
+Staging push of models to db : 22 of  24
+Staging push of models to db : 23 of  24
+3055.2000000476837
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  3
+Staging push of models to db : 1 of  3
+Staging push of models to db : 2 of  3
+3057.233999967575
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  1
+3059.2560000419617
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  2
+Staging push of models to db : 1 of  2
+3061.170000076294
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  1
+3062.7679998874664
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  1
+3064.845999956131
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  23
+Staging push of models to db : 1 of  23
+Staging push of models to db : 2 of  23
+Staging push of models to db : 3 of  23
+Staging push of models to db : 4 of  23
+Staging push of models to db : 5 of  23
+Staging push of models to db : 6 of  23
+Staging push of models to db : 7 of  23
+Staging push of models to db : 8 of  23
+Staging push of models to db : 9 of  23
+Staging push of models to db : 10 of  23
+Staging push of models to db : 11 of  23
+Staging push of models to db : 12 of  23
+Staging push of models to db : 13 of  23
+Staging push of models to db : 14 of  23
+Staging push of models to db : 15 of  23
+Staging push of models to db : 16 of  23
+Staging push of models to db : 17 of  23
+Staging push of models to db : 18 of  23
+Staging push of models to db : 19 of  23
+Staging push of models to db : 20 of  23
+Staging push of models to db : 21 of  23
+Staging push of models to db : 22 of  23
+3067.207999944687
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  6
+Staging push of models to db : 1 of  6
+Staging push of models to db : 2 of  6
+Staging push of models to db : 3 of  6
+Staging push of models to db : 4 of  6
+Staging push of models to db : 5 of  6
+3068.8310000896454
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  4
+Staging push of models to db : 1 of  4
+Staging push of models to db : 2 of  4
+Staging push of models to db : 3 of  4
+3071.295000076294
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  4
+Staging push of models to db : 1 of  4
+Staging push of models to db : 2 of  4
+Staging push of models to db : 3 of  4
+3073.223000049591
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  2
+Staging push of models to db : 1 of  2
+3075.257999897003
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  8
+Staging push of models to db : 1 of  8
+Staging push of models to db : 2 of  8
+Staging push of models to db : 3 of  8
+Staging push of models to db : 4 of  8
+Staging push of models to db : 5 of  8
+Staging push of models to db : 6 of  8
+Staging push of models to db : 7 of  8
+3077.28200006485
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  8
+Staging push of models to db : 1 of  8
+Staging push of models to db : 2 of  8
+Staging push of models to db : 3 of  8
+Staging push of models to db : 4 of  8
+Staging push of models to db : 5 of  8
+Staging push of models to db : 6 of  8
+Staging push of models to db : 7 of  8
+3079.191999912262
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  1
+3081.2109999656677
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  4
+Staging push of models to db : 1 of  4
+Staging push of models to db : 2 of  4
+Staging push of models to db : 3 of  4
+3083.246999979019
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  2
+Staging push of models to db : 1 of  2
+3084.78200006485
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  3
+Staging push of models to db : 1 of  3
+Staging push of models to db : 2 of  3
+3087.2330000400543
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  4
+Staging push of models to db : 1 of  4
+Staging push of models to db : 2 of  4
+Staging push of models to db : 3 of  4
+3089.37700009346
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  3
+Staging push of models to db : 1 of  3
+Staging push of models to db : 2 of  3
+3091.231999874115
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  8
+Staging push of models to db : 1 of  8
+Staging push of models to db : 2 of  8
+Staging push of models to db : 3 of  8
+Staging push of models to db : 4 of  8
+Staging push of models to db : 5 of  8
+Staging push of models to db : 6 of  8
+Staging push of models to db : 7 of  8
+3093.2290000915527
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  1
+3094.8289999961853
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  5
+Staging push of models to db : 1 of  5
+Staging push of models to db : 2 of  5
+Staging push of models to db : 3 of  5
+Staging push of models to db : 4 of  5
+3096.8529999256134
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  6
+Staging push of models to db : 1 of  6
+Staging push of models to db : 2 of  6
+Staging push of models to db : 3 of  6
+Staging push of models to db : 4 of  6
+Staging push of models to db : 5 of  6
+3099.2200000286102
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  2
+Staging push of models to db : 1 of  2
+3101.2730000019073
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  7
+Staging push of models to db : 1 of  7
+Staging push of models to db : 2 of  7
+Staging push of models to db : 3 of  7
+Staging push of models to db : 4 of  7
+Staging push of models to db : 5 of  7
+Staging push of models to db : 6 of  7
+3102.7939999103546
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  19
+Staging push of models to db : 1 of  19
+Staging push of models to db : 2 of  19
+Staging push of models to db : 3 of  19
+Staging push of models to db : 4 of  19
+Staging push of models to db : 5 of  19
+Staging push of models to db : 6 of  19
+Staging push of models to db : 7 of  19
+Staging push of models to db : 8 of  19
+Staging push of models to db : 9 of  19
+Staging push of models to db : 10 of  19
+Staging push of models to db : 11 of  19
+Staging push of models to db : 12 of  19
+Staging push of models to db : 13 of  19
+Staging push of models to db : 14 of  19
+Staging push of models to db : 15 of  19
+Staging push of models to db : 16 of  19
+Staging push of models to db : 17 of  19
+Staging push of models to db : 18 of  19
+3105.2509999275208
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  7
+Staging push of models to db : 1 of  7
+Staging push of models to db : 2 of  7
+Staging push of models to db : 3 of  7
+Staging push of models to db : 4 of  7
+Staging push of models to db : 5 of  7
+Staging push of models to db : 6 of  7
+3107.253000020981
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  8
+Staging push of models to db : 1 of  8
+Staging push of models to db : 2 of  8
+Staging push of models to db : 3 of  8
+Staging push of models to db : 4 of  8
+Staging push of models to db : 5 of  8
+Staging push of models to db : 6 of  8
+Staging push of models to db : 7 of  8
+3108.803999900818
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  13
+Staging push of models to db : 1 of  13
+Staging push of models to db : 2 of  13
+Staging push of models to db : 3 of  13
+Staging push of models to db : 4 of  13
+Staging push of models to db : 5 of  13
+Staging push of models to db : 6 of  13
+Staging push of models to db : 7 of  13
+Staging push of models to db : 8 of  13
+Staging push of models to db : 9 of  13
+Staging push of models to db : 10 of  13
+Staging push of models to db : 11 of  13
+Staging push of models to db : 12 of  13
+3111.2490000724792
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  6
+Staging push of models to db : 1 of  6
+Staging push of models to db : 2 of  6
+Staging push of models to db : 3 of  6
+Staging push of models to db : 4 of  6
+Staging push of models to db : 5 of  6
+3113.2779998779297
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  20
+Staging push of models to db : 1 of  20
+Staging push of models to db : 2 of  20
+Staging push of models to db : 3 of  20
+Staging push of models to db : 4 of  20
+Staging push of models to db : 5 of  20
+Staging push of models to db : 6 of  20
+Staging push of models to db : 7 of  20
+Staging push of models to db : 8 of  20
+Staging push of models to db : 9 of  20
+Staging push of models to db : 10 of  20
+Staging push of models to db : 11 of  20
+Staging push of models to db : 12 of  20
+Staging push of models to db : 13 of  20
+Staging push of models to db : 14 of  20
+Staging push of models to db : 15 of  20
+Staging push of models to db : 16 of  20
+Staging push of models to db : 17 of  20
+Staging push of models to db : 18 of  20
+Staging push of models to db : 19 of  20
+3115.3069999217987
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  1
+3117.2000000476837
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  2
+Staging push of models to db : 1 of  2
+3119.276000022888
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  3
+Staging push of models to db : 1 of  3
+Staging push of models to db : 2 of  3
+3121.2969999313354
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  5
+Staging push of models to db : 1 of  5
+Staging push of models to db : 2 of  5
+Staging push of models to db : 3 of  5
+Staging push of models to db : 4 of  5
+3123.253000020981
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  3
+Staging push of models to db : 1 of  3
+Staging push of models to db : 2 of  3
+3125.329999923706
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  4
+Staging push of models to db : 1 of  4
+Staging push of models to db : 2 of  4
+Staging push of models to db : 3 of  4
+3127.2809998989105
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  1
+3129.220999956131
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  5
+Staging push of models to db : 1 of  5
+Staging push of models to db : 2 of  5
+Staging push of models to db : 3 of  5
+Staging push of models to db : 4 of  5
+3131.290999889374
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  6
+Staging push of models to db : 1 of  6
+Staging push of models to db : 2 of  6
+Staging push of models to db : 3 of  6
+Staging push of models to db : 4 of  6
+Staging push of models to db : 5 of  6
+3133.2400000095367
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  3
+Staging push of models to db : 1 of  3
+Staging push of models to db : 2 of  3
+3135.2430000305176
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  6
+Staging push of models to db : 1 of  6
+Staging push of models to db : 2 of  6
+Staging push of models to db : 3 of  6
+Staging push of models to db : 4 of  6
+Staging push of models to db : 5 of  6
+3137.2839999198914
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  19
+Staging push of models to db : 1 of  19
+Staging push of models to db : 2 of  19
+Staging push of models to db : 3 of  19
+Staging push of models to db : 4 of  19
+Staging push of models to db : 5 of  19
+Staging push of models to db : 6 of  19
+Staging push of models to db : 7 of  19
+Staging push of models to db : 8 of  19
+Staging push of models to db : 9 of  19
+Staging push of models to db : 10 of  19
+Staging push of models to db : 11 of  19
+Staging push of models to db : 12 of  19
+Staging push of models to db : 13 of  19
+Staging push of models to db : 14 of  19
+Staging push of models to db : 15 of  19
+Staging push of models to db : 16 of  19
+Staging push of models to db : 17 of  19
+Staging push of models to db : 18 of  19
+3138.8289999961853
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  3
+Staging push of models to db : 1 of  3
+Staging push of models to db : 2 of  3
+3141.2569999694824
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  8
+Staging push of models to db : 1 of  8
+Staging push of models to db : 2 of  8
+Staging push of models to db : 3 of  8
+Staging push of models to db : 4 of  8
+Staging push of models to db : 5 of  8
+Staging push of models to db : 6 of  8
+Staging push of models to db : 7 of  8
+3143.2750000953674
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  16
+Staging push of models to db : 1 of  16
+Staging push of models to db : 2 of  16
+Staging push of models to db : 3 of  16
+Staging push of models to db : 4 of  16
+Staging push of models to db : 5 of  16
+Staging push of models to db : 6 of  16
+Staging push of models to db : 7 of  16
+Staging push of models to db : 8 of  16
+Staging push of models to db : 9 of  16
+Staging push of models to db : 10 of  16
+Staging push of models to db : 11 of  16
+Staging push of models to db : 12 of  16
+Staging push of models to db : 13 of  16
+Staging push of models to db : 14 of  16
+Staging push of models to db : 15 of  16
+3145.2799999713898
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  2
+Staging push of models to db : 1 of  2
+3147.298000097275
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  7
+Staging push of models to db : 1 of  7
+Staging push of models to db : 2 of  7
+Staging push of models to db : 3 of  7
+Staging push of models to db : 4 of  7
+Staging push of models to db : 5 of  7
+Staging push of models to db : 6 of  7
+3149.3359999656677
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  17
+Staging push of models to db : 1 of  17
+Staging push of models to db : 2 of  17
+Staging push of models to db : 3 of  17
+Staging push of models to db : 4 of  17
+Staging push of models to db : 5 of  17
+Staging push of models to db : 6 of  17
+Staging push of models to db : 7 of  17
+Staging push of models to db : 8 of  17
+Staging push of models to db : 9 of  17
+Staging push of models to db : 10 of  17
+Staging push of models to db : 11 of  17
+Staging push of models to db : 12 of  17
+Staging push of models to db : 13 of  17
+Staging push of models to db : 14 of  17
+Staging push of models to db : 15 of  17
+Staging push of models to db : 16 of  17
+3150.8239998817444
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  1
+3153.3740000724792
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  2
+Staging push of models to db : 1 of  2
+3155.3120000362396
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  3
+Staging push of models to db : 1 of  3
+Staging push of models to db : 2 of  3
+3157.263000011444
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  5
+Staging push of models to db : 1 of  5
+Staging push of models to db : 2 of  5
+Staging push of models to db : 3 of  5
+Staging push of models to db : 4 of  5
+3159.3689999580383
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  3
+Staging push of models to db : 1 of  3
+Staging push of models to db : 2 of  3
+3161.2890000343323
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  3
+Staging push of models to db : 1 of  3
+Staging push of models to db : 2 of  3
+3163.263000011444
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  3
+Staging push of models to db : 1 of  3
+Staging push of models to db : 2 of  3
+3165.4089999198914
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  7
+Staging push of models to db : 1 of  7
+Staging push of models to db : 2 of  7
+Staging push of models to db : 3 of  7
+Staging push of models to db : 4 of  7
+Staging push of models to db : 5 of  7
+Staging push of models to db : 6 of  7
+3166.946000099182
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  3
+Staging push of models to db : 1 of  3
+Staging push of models to db : 2 of  3
+3169.2690000534058
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  25
+Staging push of models to db : 1 of  25
+Staging push of models to db : 2 of  25
+Staging push of models to db : 3 of  25
+Staging push of models to db : 4 of  25
+Staging push of models to db : 5 of  25
+Staging push of models to db : 6 of  25
+Staging push of models to db : 7 of  25
+Staging push of models to db : 8 of  25
+Staging push of models to db : 9 of  25
+Staging push of models to db : 10 of  25
+Staging push of models to db : 11 of  25
+Staging push of models to db : 12 of  25
+Staging push of models to db : 13 of  25
+Staging push of models to db : 14 of  25
+Staging push of models to db : 15 of  25
+Staging push of models to db : 16 of  25
+Staging push of models to db : 17 of  25
+Staging push of models to db : 18 of  25
+Staging push of models to db : 19 of  25
+Staging push of models to db : 20 of  25
+Staging push of models to db : 21 of  25
+Staging push of models to db : 22 of  25
+Staging push of models to db : 23 of  25
+Staging push of models to db : 24 of  25
+3171.2860000133514
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  18
+Staging push of models to db : 1 of  18
+Staging push of models to db : 2 of  18
+Staging push of models to db : 3 of  18
+Staging push of models to db : 4 of  18
+Staging push of models to db : 5 of  18
+Staging push of models to db : 6 of  18
+Staging push of models to db : 7 of  18
+Staging push of models to db : 8 of  18
+Staging push of models to db : 9 of  18
+Staging push of models to db : 10 of  18
+Staging push of models to db : 11 of  18
+Staging push of models to db : 12 of  18
+Staging push of models to db : 13 of  18
+Staging push of models to db : 14 of  18
+Staging push of models to db : 15 of  18
+Staging push of models to db : 16 of  18
+Staging push of models to db : 17 of  18
+3173.276999950409
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  6
+Staging push of models to db : 1 of  6
+Staging push of models to db : 2 of  6
+Staging push of models to db : 3 of  6
+Staging push of models to db : 4 of  6
+Staging push of models to db : 5 of  6
+3175.3239998817444
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  8
+Staging push of models to db : 1 of  8
+Staging push of models to db : 2 of  8
+Staging push of models to db : 3 of  8
+Staging push of models to db : 4 of  8
+Staging push of models to db : 5 of  8
+Staging push of models to db : 6 of  8
+Staging push of models to db : 7 of  8
+3177.2549998760223
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  8
+Staging push of models to db : 1 of  8
+Staging push of models to db : 2 of  8
+Staging push of models to db : 3 of  8
+Staging push of models to db : 4 of  8
+Staging push of models to db : 5 of  8
+Staging push of models to db : 6 of  8
+Staging push of models to db : 7 of  8
+3179.356999874115
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  5
+Staging push of models to db : 1 of  5
+Staging push of models to db : 2 of  5
+Staging push of models to db : 3 of  5
+Staging push of models to db : 4 of  5
+3181.3540000915527
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  3
+Staging push of models to db : 1 of  3
+Staging push of models to db : 2 of  3
+3183.3069999217987
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  2
+Staging push of models to db : 1 of  2
+3185.279000043869
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  3
+Staging push of models to db : 1 of  3
+Staging push of models to db : 2 of  3
+3187.257999897003
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  3
+Staging push of models to db : 1 of  3
+Staging push of models to db : 2 of  3
+3189.2799999713898
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  1
+3191.3250000476837
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  1
+3193.244999885559
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  7
+Staging push of models to db : 1 of  7
+Staging push of models to db : 2 of  7
+Staging push of models to db : 3 of  7
+Staging push of models to db : 4 of  7
+Staging push of models to db : 5 of  7
+Staging push of models to db : 6 of  7
+3195.332999944687
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  8
+Staging push of models to db : 1 of  8
+Staging push of models to db : 2 of  8
+Staging push of models to db : 3 of  8
+Staging push of models to db : 4 of  8
+Staging push of models to db : 5 of  8
+Staging push of models to db : 6 of  8
+Staging push of models to db : 7 of  8
+3196.8870000839233
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  24
+Staging push of models to db : 1 of  24
+Staging push of models to db : 2 of  24
+Staging push of models to db : 3 of  24
+Staging push of models to db : 4 of  24
+Staging push of models to db : 5 of  24
+Staging push of models to db : 6 of  24
+Staging push of models to db : 7 of  24
+Staging push of models to db : 8 of  24
+Staging push of models to db : 9 of  24
+Staging push of models to db : 10 of  24
+Staging push of models to db : 11 of  24
+Staging push of models to db : 12 of  24
+Staging push of models to db : 13 of  24
+Staging push of models to db : 14 of  24
+Staging push of models to db : 15 of  24
+Staging push of models to db : 16 of  24
+Staging push of models to db : 17 of  24
+Staging push of models to db : 18 of  24
+Staging push of models to db : 19 of  24
+Staging push of models to db : 20 of  24
+Staging push of models to db : 21 of  24
+Staging push of models to db : 22 of  24
+Staging push of models to db : 23 of  24
+3199.2939999103546
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  2
+Staging push of models to db : 1 of  2
+3201.322000026703
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  1
+3203.3150000572205
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  3
+Staging push of models to db : 1 of  3
+Staging push of models to db : 2 of  3
+3205.273999929428
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  3
+Staging push of models to db : 1 of  3
+Staging push of models to db : 2 of  3
+3207.2850000858307
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  4
+Staging push of models to db : 1 of  4
+Staging push of models to db : 2 of  4
+Staging push of models to db : 3 of  4
+3209.3250000476837
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  8
+Staging push of models to db : 1 of  8
+Staging push of models to db : 2 of  8
+Staging push of models to db : 3 of  8
+Staging push of models to db : 4 of  8
+Staging push of models to db : 5 of  8
+Staging push of models to db : 6 of  8
+Staging push of models to db : 7 of  8
+3211.2839999198914
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  3
+Staging push of models to db : 1 of  3
+Staging push of models to db : 2 of  3
+3213.2850000858307
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  2
+Staging push of models to db : 1 of  2
+3214.8849999904633
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  3
+Staging push of models to db : 1 of  3
+Staging push of models to db : 2 of  3
+3216.848999977112
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  4
+Staging push of models to db : 1 of  4
+Staging push of models to db : 2 of  4
+Staging push of models to db : 3 of  4
+3218.923000097275
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  1
+3220.869999885559
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  1
+3222.9089999198914
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  1
+3225.300999879837
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  9
+Staging push of models to db : 1 of  9
+Staging push of models to db : 2 of  9
+Staging push of models to db : 3 of  9
+Staging push of models to db : 4 of  9
+Staging push of models to db : 5 of  9
+Staging push of models to db : 6 of  9
+Staging push of models to db : 7 of  9
+Staging push of models to db : 8 of  9
+3226.9690001010895
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  1
+3228.9000000953674
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  3
+Staging push of models to db : 1 of  3
+Staging push of models to db : 2 of  3
+3231.276999950409
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  6
+Staging push of models to db : 1 of  6
+Staging push of models to db : 2 of  6
+Staging push of models to db : 3 of  6
+Staging push of models to db : 4 of  6
+Staging push of models to db : 5 of  6
+3233.335000038147
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  25
+Staging push of models to db : 1 of  25
+Staging push of models to db : 2 of  25
+Staging push of models to db : 3 of  25
+Staging push of models to db : 4 of  25
+Staging push of models to db : 5 of  25
+Staging push of models to db : 6 of  25
+Staging push of models to db : 7 of  25
+Staging push of models to db : 8 of  25
+Staging push of models to db : 9 of  25
+Staging push of models to db : 10 of  25
+Staging push of models to db : 11 of  25
+Staging push of models to db : 12 of  25
+Staging push of models to db : 13 of  25
+Staging push of models to db : 14 of  25
+Staging push of models to db : 15 of  25
+Staging push of models to db : 16 of  25
+Staging push of models to db : 17 of  25
+Staging push of models to db : 18 of  25
+Staging push of models to db : 19 of  25
+Staging push of models to db : 20 of  25
+Staging push of models to db : 21 of  25
+Staging push of models to db : 22 of  25
+Staging push of models to db : 23 of  25
+Staging push of models to db : 24 of  25
+3235.3369998931885
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  11
+Staging push of models to db : 1 of  11
+Staging push of models to db : 2 of  11
+Staging push of models to db : 3 of  11
+Staging push of models to db : 4 of  11
+Staging push of models to db : 5 of  11
+Staging push of models to db : 6 of  11
+Staging push of models to db : 7 of  11
+Staging push of models to db : 8 of  11
+Staging push of models to db : 9 of  11
+Staging push of models to db : 10 of  11
+3236.901000022888
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  10
+Staging push of models to db : 1 of  10
+Staging push of models to db : 2 of  10
+Staging push of models to db : 3 of  10
+Staging push of models to db : 4 of  10
+Staging push of models to db : 5 of  10
+Staging push of models to db : 6 of  10
+Staging push of models to db : 7 of  10
+Staging push of models to db : 8 of  10
+Staging push of models to db : 9 of  10
+3239.34299993515
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  25
+Staging push of models to db : 1 of  25
+Staging push of models to db : 2 of  25
+Staging push of models to db : 3 of  25
+Staging push of models to db : 4 of  25
+Staging push of models to db : 5 of  25
+Staging push of models to db : 6 of  25
+Staging push of models to db : 7 of  25
+Staging push of models to db : 8 of  25
+Staging push of models to db : 9 of  25
+Staging push of models to db : 10 of  25
+Staging push of models to db : 11 of  25
+Staging push of models to db : 12 of  25
+Staging push of models to db : 13 of  25
+Staging push of models to db : 14 of  25
+Staging push of models to db : 15 of  25
+Staging push of models to db : 16 of  25
+Staging push of models to db : 17 of  25
+Staging push of models to db : 18 of  25
+Staging push of models to db : 19 of  25
+Staging push of models to db : 20 of  25
+Staging push of models to db : 21 of  25
+Staging push of models to db : 22 of  25
+Staging push of models to db : 23 of  25
+Staging push of models to db : 24 of  25
+3241.2890000343323
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  2
+Staging push of models to db : 1 of  2
+3243.34299993515
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  1
+3245.313999891281
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  4
+Staging push of models to db : 1 of  4
+Staging push of models to db : 2 of  4
+Staging push of models to db : 3 of  4
+3247.322000026703
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  21
+Staging push of models to db : 1 of  21
+Staging push of models to db : 2 of  21
+Staging push of models to db : 3 of  21
+Staging push of models to db : 4 of  21
+Staging push of models to db : 5 of  21
+Staging push of models to db : 6 of  21
+Staging push of models to db : 7 of  21
+Staging push of models to db : 8 of  21
+Staging push of models to db : 9 of  21
+Staging push of models to db : 10 of  21
+Staging push of models to db : 11 of  21
+Staging push of models to db : 12 of  21
+Staging push of models to db : 13 of  21
+Staging push of models to db : 14 of  21
+Staging push of models to db : 15 of  21
+Staging push of models to db : 16 of  21
+Staging push of models to db : 17 of  21
+Staging push of models to db : 18 of  21
+Staging push of models to db : 19 of  21
+Staging push of models to db : 20 of  21
+3249.3069999217987
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  3
+Staging push of models to db : 1 of  3
+Staging push of models to db : 2 of  3
+3251.3789999485016
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  3
+Staging push of models to db : 1 of  3
+Staging push of models to db : 2 of  3
+3252.8810000419617
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  5
+Staging push of models to db : 1 of  5
+Staging push of models to db : 2 of  5
+Staging push of models to db : 3 of  5
+Staging push of models to db : 4 of  5
+3254.9059998989105
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  5
+Staging push of models to db : 1 of  5
+Staging push of models to db : 2 of  5
+Staging push of models to db : 3 of  5
+Staging push of models to db : 4 of  5
+3257.391000032425
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  21
+Staging push of models to db : 1 of  21
+Staging push of models to db : 2 of  21
+Staging push of models to db : 3 of  21
+Staging push of models to db : 4 of  21
+Staging push of models to db : 5 of  21
+Staging push of models to db : 6 of  21
+Staging push of models to db : 7 of  21
+Staging push of models to db : 8 of  21
+Staging push of models to db : 9 of  21
+Staging push of models to db : 10 of  21
+Staging push of models to db : 11 of  21
+Staging push of models to db : 12 of  21
+Staging push of models to db : 13 of  21
+Staging push of models to db : 14 of  21
+Staging push of models to db : 15 of  21
+Staging push of models to db : 16 of  21
+Staging push of models to db : 17 of  21
+Staging push of models to db : 18 of  21
+Staging push of models to db : 19 of  21
+Staging push of models to db : 20 of  21
+3259.321000099182
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  1
+3261.3399999141693
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  1
+3262.9349999427795
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  1
+3265.3069999217987
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  5
+Staging push of models to db : 1 of  5
+Staging push of models to db : 2 of  5
+Staging push of models to db : 3 of  5
+Staging push of models to db : 4 of  5
+3267.3109998703003
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  10
+Staging push of models to db : 1 of  10
+Staging push of models to db : 2 of  10
+Staging push of models to db : 3 of  10
+Staging push of models to db : 4 of  10
+Staging push of models to db : 5 of  10
+Staging push of models to db : 6 of  10
+Staging push of models to db : 7 of  10
+Staging push of models to db : 8 of  10
+Staging push of models to db : 9 of  10
+3271.338000059128
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  5
+Staging push of models to db : 1 of  5
+Staging push of models to db : 2 of  5
+Staging push of models to db : 3 of  5
+Staging push of models to db : 4 of  5
+3271.37299990654
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  4
+Staging push of models to db : 1 of  4
+Staging push of models to db : 2 of  4
+Staging push of models to db : 3 of  4
+3273.2999999523163
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  5
+Staging push of models to db : 1 of  5
+Staging push of models to db : 2 of  5
+Staging push of models to db : 3 of  5
+Staging push of models to db : 4 of  5
+3275.3180000782013
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  1
+3277.3580000400543
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  1
+3279.3109998703003
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  8
+Staging push of models to db : 1 of  8
+Staging push of models to db : 2 of  8
+Staging push of models to db : 3 of  8
+Staging push of models to db : 4 of  8
+Staging push of models to db : 5 of  8
+Staging push of models to db : 6 of  8
+Staging push of models to db : 7 of  8
+3281.3120000362396
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  1
+3283.37299990654
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  4
+Staging push of models to db : 1 of  4
+Staging push of models to db : 2 of  4
+Staging push of models to db : 3 of  4
+3285.3150000572205
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  2
+Staging push of models to db : 1 of  2
+3287.4560000896454
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  12
+Staging push of models to db : 1 of  12
+Staging push of models to db : 2 of  12
+Staging push of models to db : 3 of  12
+Staging push of models to db : 4 of  12
+Staging push of models to db : 5 of  12
+Staging push of models to db : 6 of  12
+Staging push of models to db : 7 of  12
+Staging push of models to db : 8 of  12
+Staging push of models to db : 9 of  12
+Staging push of models to db : 10 of  12
+Staging push of models to db : 11 of  12
+3289.417000055313
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  8
+Staging push of models to db : 1 of  8
+Staging push of models to db : 2 of  8
+Staging push of models to db : 3 of  8
+Staging push of models to db : 4 of  8
+Staging push of models to db : 5 of  8
+Staging push of models to db : 6 of  8
+Staging push of models to db : 7 of  8
+3291.3519999980927
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  1
+3293.3250000476837
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  23
+Staging push of models to db : 1 of  23
+Staging push of models to db : 2 of  23
+Staging push of models to db : 3 of  23
+Staging push of models to db : 4 of  23
+Staging push of models to db : 5 of  23
+Staging push of models to db : 6 of  23
+Staging push of models to db : 7 of  23
+Staging push of models to db : 8 of  23
+Staging push of models to db : 9 of  23
+Staging push of models to db : 10 of  23
+Staging push of models to db : 11 of  23
+Staging push of models to db : 12 of  23
+Staging push of models to db : 13 of  23
+Staging push of models to db : 14 of  23
+Staging push of models to db : 15 of  23
+Staging push of models to db : 16 of  23
+Staging push of models to db : 17 of  23
+Staging push of models to db : 18 of  23
+Staging push of models to db : 19 of  23
+Staging push of models to db : 20 of  23
+Staging push of models to db : 21 of  23
+Staging push of models to db : 22 of  23
+3295.404000043869
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  12
+Staging push of models to db : 1 of  12
+Staging push of models to db : 2 of  12
+Staging push of models to db : 3 of  12
+Staging push of models to db : 4 of  12
+Staging push of models to db : 5 of  12
+Staging push of models to db : 6 of  12
+Staging push of models to db : 7 of  12
+Staging push of models to db : 8 of  12
+Staging push of models to db : 9 of  12
+Staging push of models to db : 10 of  12
+Staging push of models to db : 11 of  12
+3298.2200000286102
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  1
+3299.3550000190735
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  10
+Staging push of models to db : 1 of  10
+Staging push of models to db : 2 of  10
+Staging push of models to db : 3 of  10
+Staging push of models to db : 4 of  10
+Staging push of models to db : 5 of  10
+Staging push of models to db : 6 of  10
+Staging push of models to db : 7 of  10
+Staging push of models to db : 8 of  10
+Staging push of models to db : 9 of  10
+3301.3840000629425
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  3
+Staging push of models to db : 1 of  3
+Staging push of models to db : 2 of  3
+3303.3389999866486
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  36
+Staging push of models to db : 1 of  36
+Staging push of models to db : 2 of  36
+Staging push of models to db : 3 of  36
+Staging push of models to db : 4 of  36
+Staging push of models to db : 5 of  36
+Staging push of models to db : 6 of  36
+Staging push of models to db : 7 of  36
+Staging push of models to db : 8 of  36
+Staging push of models to db : 9 of  36
+Staging push of models to db : 10 of  36
+Staging push of models to db : 11 of  36
+Staging push of models to db : 12 of  36
+Staging push of models to db : 13 of  36
+Staging push of models to db : 14 of  36
+Staging push of models to db : 15 of  36
+Staging push of models to db : 16 of  36
+Staging push of models to db : 17 of  36
+Staging push of models to db : 18 of  36
+Staging push of models to db : 19 of  36
+Staging push of models to db : 20 of  36
+Staging push of models to db : 21 of  36
+Staging push of models to db : 22 of  36
+Staging push of models to db : 23 of  36
+Staging push of models to db : 24 of  36
+Staging push of models to db : 25 of  36
+Staging push of models to db : 26 of  36
+Staging push of models to db : 27 of  36
+Staging push of models to db : 28 of  36
+Staging push of models to db : 29 of  36
+Staging push of models to db : 30 of  36
+Staging push of models to db : 31 of  36
+Staging push of models to db : 32 of  36
+Staging push of models to db : 33 of  36
+Staging push of models to db : 34 of  36
+Staging push of models to db : 35 of  36
+3304.9219999313354
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  3
+Staging push of models to db : 1 of  3
+Staging push of models to db : 2 of  3
+3307.4240000247955
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  2
+Staging push of models to db : 1 of  2
+3308.954999923706
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  3
+Staging push of models to db : 1 of  3
+Staging push of models to db : 2 of  3
+3310.933000087738
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  8
+Staging push of models to db : 1 of  8
+Staging push of models to db : 2 of  8
+Staging push of models to db : 3 of  8
+Staging push of models to db : 4 of  8
+Staging push of models to db : 5 of  8
+Staging push of models to db : 6 of  8
+Staging push of models to db : 7 of  8
+3313
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  22
+Staging push of models to db : 1 of  22
+Staging push of models to db : 2 of  22
+Staging push of models to db : 3 of  22
+Staging push of models to db : 4 of  22
+Staging push of models to db : 5 of  22
+Staging push of models to db : 6 of  22
+Staging push of models to db : 7 of  22
+Staging push of models to db : 8 of  22
+Staging push of models to db : 9 of  22
+Staging push of models to db : 10 of  22
+Staging push of models to db : 11 of  22
+Staging push of models to db : 12 of  22
+Staging push of models to db : 13 of  22
+Staging push of models to db : 14 of  22
+Staging push of models to db : 15 of  22
+Staging push of models to db : 16 of  22
+Staging push of models to db : 17 of  22
+Staging push of models to db : 18 of  22
+Staging push of models to db : 19 of  22
+Staging push of models to db : 20 of  22
+Staging push of models to db : 21 of  22
+3315.3929998874664
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  1
+3317.082999944687
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  1
+3319.351000070572
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  1
+3321.369999885559
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  5
+Staging push of models to db : 1 of  5
+Staging push of models to db : 2 of  5
+Staging push of models to db : 3 of  5
+Staging push of models to db : 4 of  5
+3323.391000032425
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  9
+Staging push of models to db : 1 of  9
+Staging push of models to db : 2 of  9
+Staging push of models to db : 3 of  9
+Staging push of models to db : 4 of  9
+Staging push of models to db : 5 of  9
+Staging push of models to db : 6 of  9
+Staging push of models to db : 7 of  9
+Staging push of models to db : 8 of  9
+3325.3980000019073
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  5
+Staging push of models to db : 1 of  5
+Staging push of models to db : 2 of  5
+Staging push of models to db : 3 of  5
+Staging push of models to db : 4 of  5
+3327.3669998645782
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  6
+Staging push of models to db : 1 of  6
+Staging push of models to db : 2 of  6
+Staging push of models to db : 3 of  6
+Staging push of models to db : 4 of  6
+Staging push of models to db : 5 of  6
+3329.3389999866486
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  6
+Staging push of models to db : 1 of  6
+Staging push of models to db : 2 of  6
+Staging push of models to db : 3 of  6
+Staging push of models to db : 4 of  6
+Staging push of models to db : 5 of  6
+3331.542000055313
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  1
+3333.003000020981
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  1
+3335.3519999980927
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  4
+Staging push of models to db : 1 of  4
+Staging push of models to db : 2 of  4
+Staging push of models to db : 3 of  4
+3337.016000032425
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  2
+Staging push of models to db : 1 of  2
+3339.3339998722076
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  12
+Staging push of models to db : 1 of  12
+Staging push of models to db : 2 of  12
+Staging push of models to db : 3 of  12
+Staging push of models to db : 4 of  12
+Staging push of models to db : 5 of  12
+Staging push of models to db : 6 of  12
+Staging push of models to db : 7 of  12
+Staging push of models to db : 8 of  12
+Staging push of models to db : 9 of  12
+Staging push of models to db : 10 of  12
+Staging push of models to db : 11 of  12
+3341.425999879837
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  8
+Staging push of models to db : 1 of  8
+Staging push of models to db : 2 of  8
+Staging push of models to db : 3 of  8
+Staging push of models to db : 4 of  8
+Staging push of models to db : 5 of  8
+Staging push of models to db : 6 of  8
+Staging push of models to db : 7 of  8
+3342.9719998836517
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  1
+3345.348999977112
+------------------Auth Granted------------------
+Staging push of models to db : 0 of  22
+Staging push of models to db : 1 of  22
+Staging push of models to db : 2 of  22
+Staging push of models to db : 3 of  22
+Staging push of models to db : 4 of  22
+Staging push of models to db : 5 of  22
+Staging push of models to db : 6 of  22
+Staging push of models to db : 7 of  22
+Staging push of models to db : 8 of  22
+Staging push of models to db : 9 of  22
+Staging push of models to db : 10 of  22
+Staging push of models to db : 11 of  22
+Staging push of models to db : 12 of  22
+Staging push of models to db : 13 of  22
+Staging push of models to db : 14 of  22
+Staging push of models to db : 15 of  22
+Staging push of models to db : 16 of  22
+Staging push of models to db : 17 of  22
+Staging push of models to db : 18 of  22
+Staging push of models to db : 19 of  22
+Staging push of models to db : 20 of  22
+Staging push of models to db : 21 of  22
+3347.4140000343323
+------------------Auth Granted------------------
