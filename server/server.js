@@ -1,19 +1,18 @@
-import express from "express";
 import * as dotenv from "dotenv"; // see https://github.com/motdotla/dotenv#how-do-i-use-dotenv-with-import
 dotenv.config();
 import { client } from "./db/connection.js";
 import axios from "axios";
 import axiosThrottle from 'axios-request-throttle'
 import https from "https";
-axiosThrottle.use(axios, { requestsPerSecond: 0.5 });
+axiosThrottle.use(axios, { requestsPerSecond: 1 });
 
 client.connect(async (err) => {
   let collection = client.db("WheelPros_data").collection("auth");
   // perform actions on the collection object
   var TokenFromDB = await collection.find({ _id: 1 }).toArray();
-  var { accessToken: token, time: lastFetchedAuth } = TokenFromDB[0];
+  var { accessToken: token, time: lastFetchedAuth } = TokenFromDB[0] || [{ accessToken: null, time: 0 }];
 
-
+  // console.log("ourside token var = ", token)
   // Fetch the auth token if the last fetched token is more than 59 minutes ago
 
 
@@ -21,55 +20,56 @@ client.connect(async (err) => {
 
     let authCollection = client.db("WheelPros_data").collection("auth");
     TokenFromDB = await authCollection.find({ _id: 1 }).toArray();
-    ({ accessToken: token, time: lastFetchedAuth } = TokenFromDB[0])
-    console.log(new Date().getTime() / 1000 - lastFetchedAuth)
-    if (new Date().getTime() / 1000 - lastFetchedAuth >= 3600) {
-      let axiosConfig = {
-        headers: {
-          "Content-Type": "application/json",
-          accept: "application/json",
-        },
-      };
+    ({ accessToken: token, time: lastFetchedAuth } = TokenFromDB[0] || [{ accessToken: null, time: 0 }])
+    // console.log(new Date().getTime() / 1000 - lastFetchedAuth)
 
-      await axios({
-        method: "POST",
-        data: {
-          userName: process.env.WHEELPROS_USERNAME,
-          password: process.env.PASSWORD,
-        },
-        url: `${process.env.PROD_API_URL}/auth/v1/authorize`,
-        axiosConfig,
+    let axiosConfig = {
+      headers: {
+        "Content-Type": "application/json",
+        accept: "application/json",
+      },
+    };
+
+    await axios({
+      method: "POST",
+      data: {
+        userName: process.env.WHEELPROS_USERNAME,
+        password: process.env.PASSWORD,
+      },
+      url: `${process.env.PROD_API_URL}/auth/v1/authorize`,
+      axiosConfig,
+    })
+      .then(async (res) => {
+        const { accessToken } = res.data;
+        authCollection.updateOne(
+          { _id: 1 },
+          {
+            $set: {
+              accessToken: accessToken,
+              time: new Date().getTime() / 1000,
+              Date: new Date(),
+            },
+          }, {
+          upsert: true
+        }
+        );
+        console.log("newAccessToken : ", accessToken)
+        token = await accessToken
+        console.log("inside token var = ", token)
+
+        console.log("------------------Auth Updated------------------");
+
       })
-        .then(async (res) => {
-          const { accessToken } = res.data;
-          console.log(await collection.updateOne(
-            { _id: 1 },
-            {
-              $set: {
-                accessToken,
-                time: new Date().getTime() / 1000,
-                Date: new Date(),
-              },
-            }
-          ));
-
-          TokenFromDB = await authCollection.find({ _id: 1 }).toArray();
-          ({ accessToken: token, time: lastFetchedAuth } = TokenFromDB[0])
-
-          console.log("------------------Auth Updated------------------");
-
-        })
-        .catch((err) => {
-          console.log("AXIOS ERROR: ", err);
-        });
-    } else {
-      console.log("------------------Auth Granted------------------");
-    }
-
+      .catch((err) => {
+        console.log("AXIOS ERROR: ", err);
+      });
   }
+  await authFetch()
+  // console.log("ourside token var = ", token)
 
-  // updates the auth token when it expires 
-  // authFetch()
+  setInterval(authFetch, 3590000)
+
+
   // Fetches Wheelpros vehicle years
   collection = client.db("WheelPros_data").collection("wheelsDB");
   var yearsFromDB = await collection.find({ parent: null }).toArray();
@@ -97,9 +97,9 @@ client.connect(async (err) => {
         await collection.insertMany(yearArr);
 
       })
-      .catch(function (error) {
+      .catch(function ({ response }) {
         // handle error
-        console.log(error);
+        console.log(response.status);
       })
       .then(async function () {
         // always executed
@@ -113,7 +113,8 @@ client.connect(async (err) => {
   }
   yearsFromDB = await collection.find({ parent: null }).toArray();
   console.log("years", yearsFromDB.length)
-  if (false)
+  // if (false)
+  const fetchMakes = async () => {
     yearsFromDB.forEach(async (year, i) => {
 
       console.log(`Getting makes:  ${i} of ${yearsFromDB.length}`);
@@ -141,88 +142,39 @@ client.connect(async (err) => {
 
           });
           await collection.insertMany(makeArr);
-          authFetch()
+          console.log(`pushing makes ${i} of year/s ${yearsFromDB.length}`)
+
         })
-        .catch(function (error) {
+        .catch(function ({ response }) {
           // handle error
-          console.log(error);
+
+
+          console.log(response.status);
 
         })
         .then(function () {
           // always executed
         });
     });
+  }
+  // await fetchMakes()
   // Fetches Wheelpros vehicle makes
-  const makeDataFromDB = await collection
-    .find({ makeData: { $exists: true } })
-    .toArray();
-  // const makeDataFromDB = await collection
-  // .distinct( "modelData" )
-  console.log("make data bois", makeDataFromDB.length)
+  const fetchModels = async () => {
 
-  //  console.log(submodelsData)
+    var makeDataFromDB = await collection
+      .find({ makeData: { $exists: true } })
+      .toArray();
+    // const makeDataFromDB = await collection
+    // .distinct( "modelData" )
+    console.log("make data bois", makeDataFromDB.length)
 
-  // if (false)
-  makeDataFromDB.forEach(async (make, i) => {
-    // console.log(`Working on Makes Array to populate models :  ${i} of ${makeDataFromDB.length}`);
-    await axios.get(
-      `${process.env.PROD_API_URL}/vehicles/v1/years/${make.parent}/makes/${make.make}/models`,
-      {
-        headers: {
-          Authorization: `Bearer ${token}`,
-          "Content-Type": "application/json",
-        },
-      }
-    )
-      .then(async function ({ data }) {
-        // handle success
-        let models = data;
-        const modelArr = [];
-        models.forEach((model, index) => {
-          modelArr.push({
-            model,
-            parent: make.parent,
-            modelData: `${make.parent};${make.make};${model}`,
-          });
+    //  console.log(submodelsData)
 
-          console.clear();
-          console.log(`Staging push of models to db : ${index} of  ${models.length}`)
-        });
-        await collection.insertMany(modelArr);
-        authFetch()
-
-      })
-      .catch(function (error) {
-        // handle error
-        console.log(error);
-        // authFetch()
-
-      })
-      .then(function () {
-        // always executed
-      })
-
-
-  });
-  console.log("Got all the models")
-
-  const modelDataFromDB = await collection
-    .find({ modelData: { $exists: true } })
-    .toArray();
-  console.log(modelDataFromDB.length)
-
-  // authFetch()
-
-  // if (false)
-
-  modelDataFromDB.forEach(async (modeldata) => {
-    // await fetchToken().catch(console.error)
-
-    let dataSearch = modeldata.modelData.split(';')
-
-    await axios
-      .get(
-        `https://api.wheelpros.com/vehicles/v1/years/${dataSearch[0]}/makes/${dataSearch[1]}/models/${dataSearch[2]}/submodels`,
+    // if (false)
+    makeDataFromDB.forEach(async (make, i) => {
+      // console.log(`Working on Makes Array to populate models :  ${i} of ${makeDataFromDB.length}`);
+      await axios.get(
+        `${process.env.PROD_API_URL}/vehicles/v1/years/${make.parent}/makes/${make.make}/models`,
         {
           headers: {
             Authorization: `Bearer ${token}`,
@@ -230,35 +182,90 @@ client.connect(async (err) => {
           },
         }
       )
-      .then(async function ({ data }) {
+        .then(async function ({ data }) {
+          // handle success
+          let models = data;
+          const modelArr = [];
+          models.forEach((model, index) => {
+            modelArr.push({
+              model,
+              parent: make.parent,
+              modelData: `${make.parent};${make.make};${model}`,
+            });
 
-        await collection.updateOne(
-          { modelData: modeldata.modelData },
+            console.clear();
+            console.log(`Staging push of models to db : ${index} of  ${models.length}`);
+          });
+          console.log(`working on models ${i} of makes ${makeDataFromDB.length}`);
+          await collection.insertMany(modelArr);
+
+        })
+        .catch(function ({ response }) {
+          // handle error
+          console.log(response.status);
+
+
+        })
+        .then(function () {
+          // always executed
+        });
+
+
+    });
+    console.log("Got all the models")
+
+  }
+  //  fetchModels()
+  // if (false)
+
+
+  const fetchSubmodels = async () => {
+    const modelDataFromDB = await collection
+      .find({ modelData: { $exists: true } })
+      .toArray();
+    console.log(modelDataFromDB.length)
+    modelDataFromDB.forEach(async (modeldata) => {
+      // await fetchToken().catch(console.error)
+
+      let dataSearch = modeldata.modelData.split(';')
+
+      await axios
+        .get(
+          `${process.env.PROD_API_URL}/${dataSearch[0]}/makes/${dataSearch[1]}/models/${dataSearch[2]}/submodels`,
           {
-            $set: {
-              submodels: data
+            headers: {
+              Authorization: `Bearer ${token}`,
+              "Content-Type": "application/json",
             },
           }
-        );
-        // handle success
-        console.log(`pushing the submodels ${data} to ${modeldata.modelData} `)
-        authFetch()
+        )
+        .then(async function ({ data }) {
 
+          await collection.updateOne(
+            { modelData: modeldata.modelData },
+            {
+              $set: {
+                submodels: data
+              },
+            }
+          );
+          // handle success
+          console.log(`pushing the submodels ${data} to ${modeldata.modelData} `)
 
+        })
+        .catch(async function (error) {
+          // handle error
+          console.log(error);
 
-      })
-      .catch(async function (error) {
-        // handle error
-        console.log(error);
-        // authFetch()
+        })
 
-      })
-
-  })
-
+    })
+  }
+  await fetchSubmodels()
+  clearInterval(authFetch)
   // await  client.close();
 
-  // Fetches Wheelpros vehicle submodels
+  // Fetches Wheelpros vehicle Skus
   // axios
   //   .get(
   //     `${process.env.PROD_API_URL}/years/${year}/makes/${make}/models/${submodel}/`,
@@ -341,7 +348,7 @@ client.connect(async (err) => {
               DataArr.push({ sku: e.SKUInfo.SKU, filter: e.ExtraField10 });
             });
             await collection.insertMany(DataArr);
-            await fetch3dcart();
+            fetch3dcart();
           })
           .catch(function (error) {
             // handle error
