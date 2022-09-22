@@ -111,13 +111,13 @@ client.connect(async (err) => {
   } else {
     console.log("no need to update years");
   }
-  yearsFromDB = await collection.find({ parent: null }).toArray();
   console.log("years", yearsFromDB.length)
   // if (false)
   const fetchMakes = async () => {
-    yearsFromDB.forEach(async (year, i) => {
+    yearsFromDB = await collection.find({ parent: null }).toArray();
+    for (let [index, year] of yearsFromDB.entries()) {
 
-      console.log(`Getting makes:  ${i} of ${yearsFromDB.length}`);
+      console.log(`Getting makes:  ${index} of ${yearsFromDB.length}`);
       await axios
         .get(
           `${process.env.PROD_API_URL}/vehicles/v1/years/${year.year}/makes`,
@@ -142,7 +142,7 @@ client.connect(async (err) => {
 
           });
           await collection.insertMany(makeArr);
-          console.log(`pushing makes ${i} of year/s ${yearsFromDB.length}`)
+          console.log(`pushing makes ${index} of year/s ${yearsFromDB.length}`)
 
         })
         .catch(function ({ response }) {
@@ -155,7 +155,7 @@ client.connect(async (err) => {
         .then(function () {
           // always executed
         });
-    });
+    };
   }
   // await fetchMakes()
   // Fetches Wheelpros vehicle makes
@@ -171,7 +171,7 @@ client.connect(async (err) => {
     //  console.log(submodelsData)
 
     // if (false)
-    makeDataFromDB.forEach(async (make, i) => {
+    for (let [i, make] of makeDataFromDB.entries()) {
       // console.log(`Working on Makes Array to populate models :  ${i} of ${makeDataFromDB.length}`);
       await axios.get(
         `${process.env.PROD_API_URL}/vehicles/v1/years/${make.parent}/makes/${make.make}/models`,
@@ -211,7 +211,7 @@ client.connect(async (err) => {
         });
 
 
-    });
+    };
     console.log("Got all the models")
 
   }
@@ -224,14 +224,14 @@ client.connect(async (err) => {
       .find({ modelData: { $exists: true } })
       .toArray();
     console.log(modelDataFromDB.length)
-    modelDataFromDB.forEach(async (modeldata) => {
+    for (var modeldata of modelDataFromDB) {
       // await fetchToken().catch(console.error)
 
       let dataSearch = modeldata.modelData.split(';')
 
       await axios
         .get(
-          `${process.env.PROD_API_URL}/${dataSearch[0]}/makes/${dataSearch[1]}/models/${dataSearch[2]}/submodels`,
+          `${process.env.PROD_API_URL}/vehicles/v1/years/${dataSearch[0]}/makes/${dataSearch[1]}/models/${dataSearch[2]}/submodels`,
           {
             headers: {
               Authorization: `Bearer ${token}`,
@@ -259,13 +259,109 @@ client.connect(async (err) => {
 
         })
 
-    })
+    }
   }
-  await fetchSubmodels()
-  clearInterval(authFetch)
+  // await fetchSubmodels()
+
   // await  client.close();
 
   // Fetches Wheelpros vehicle Skus
+
+  const getSkus = async () => {
+    const submodelDataFromDB = await collection
+      .find({ submodels: { $exists: true } })
+      .toArray();
+    console.log(submodelDataFromDB.length)
+    let wheelsProSkuCollection = client.db("WheelPros_data").collection("wheelProsSkuCollection");
+    for (let submodelData of submodelDataFromDB) {
+      let dataSearch = submodelData.modelData.split(';')
+
+      if (submodelData.submodels.length > 0) {
+
+        for (let submodelname of submodelData.submodels) {
+          if (false)
+            await axios
+              .get(
+                `${process.env.PROD_API_URL}/products/v1/search/wheel/?vehicleYear=${dataSearch[0]}&vehicleMake=${dataSearch[1]}&vehicleModel=${dataSearch[2]}&vehicleSubModel=${submodelname}`,
+                {
+                  headers: {
+                    Authorization: `Bearer ${token}`,
+                    "Content-Type": "application/json",
+                  },
+                }
+              )
+              .then(async function ({ data }) {
+
+                // await wheelsProSkuCollection.updateOne(
+                //   { modelData: modeldata.modelData },
+                //   {
+                //     $set: {
+                //       submodels: data
+                //     },
+                //   }
+                // );
+                // handle success
+                console.log(`${data}`)
+
+              })
+              .catch(async function (error) {
+                // handle error
+                console.log(error);
+
+              })
+
+        }
+      } else {
+        // console.log(`${process.env.PROD_API_URL}/products/v1/search/wheel?vehicleYear=${dataSearch[0]}&vehicleMake=${dataSearch[1]}&vehicleModel=${dataSearch[2]}`)
+        // if (false)
+        await axios
+          .get(
+            `${process.env.PROD_API_URL}/products/v1/search/wheel?vehicleYear=${dataSearch[0]}&vehicleMake=${dataSearch[1]}&vehicleModel=${dataSearch[2]}&pageSize=1000`,
+            {
+              headers: {
+                Authorization: `Bearer ${token}`,
+                "Content-Type": "application/json",
+              },
+            }
+          )
+          .then(async function ({ data }) {
+
+            // handle success
+
+            var SkuArr = []
+            for (var skuData of data.results) {
+              let { sku } = skuData
+              SkuArr.push({ sku, filterData: submodelData.modelData })
+            }
+            const result = await wheelsProSkuCollection.insertMany(
+
+             SkuArr
+
+            );
+           console.log(result)
+            // console.dir(SkuArr, { 'maxArrayLength': null })
+             console.log(data.totalCount)
+		  await wheelsProSkuCollection.insertOne({totalCount: data.totalCount, FilterQuery: submodelData.modelData})
+            // console.log(`${data}`)
+
+          })
+          .catch(async function (error) {
+            // handle error
+            console.log(error);
+
+          })
+
+      }
+    }
+  }
+
+
+//  await fetchMakes()
+//  await fetchModels()
+//  await fetchSubmodels()
+  await getSkus()
+
+  clearInterval(authFetch)
   // axios
   //   .get(
   //     `${process.env.PROD_API_URL}/years/${year}/makes/${make}/models/${submodel}/`,
