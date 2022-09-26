@@ -4,7 +4,7 @@ import { client } from "./db/connection.js";
 import axios from "axios";
 import axiosThrottle from 'axios-request-throttle'
 import https from "https";
-axiosThrottle.use(axios, { requestsPerSecond: 1 });
+axiosThrottle.use(axios, { requestsPerSecond: 2 });
 
 client.connect(async (err) => {
   let collection = client.db("WheelPros_data").collection("auth");
@@ -14,7 +14,6 @@ client.connect(async (err) => {
 
   // console.log("ourside token var = ", token)
   // Fetch the auth token if the last fetched token is more than 59 minutes ago
-
 
   const authFetch = async () => {
 
@@ -53,9 +52,7 @@ client.connect(async (err) => {
           upsert: true
         }
         );
-        console.log("newAccessToken : ", accessToken)
         token = await accessToken
-        console.log("inside token var = ", token)
 
         console.log("------------------Auth Updated------------------");
 
@@ -64,10 +61,10 @@ client.connect(async (err) => {
         console.log("AXIOS ERROR: ", err);
       });
   }
-  await authFetch()
+  // await authFetch()
   // console.log("ourside token var = ", token)
 
-  setInterval(authFetch, 3590000)
+  // setInterval(authFetch, 3590000)
 
 
   // Fetches Wheelpros vehicle years
@@ -231,7 +228,7 @@ client.connect(async (err) => {
 
       await axios
         .get(
-          `${process.env.PROD_API_URL}/vehicles/v1/years/${dataSearch[0]}/makes/${dataSearch[1]}/models/${dataSearch[2]}/submodels`,
+          `${process.env.PROD_API_URL}/vehicles/v1/years/${dataSearch[0]}/makes/${encodeURIComponent(dataSearch[1])}/models/${encodeURIComponent(dataSearch[2])}/submodels`,
           {
             headers: {
               Authorization: `Bearer ${token}`,
@@ -279,10 +276,10 @@ client.connect(async (err) => {
       if (submodelData.submodels.length > 0) {
 
         for (let submodelname of submodelData.submodels) {
-          if (false)
+          const fetchSkusBasesOnSubmodels = async (offset = 0) => {
             await axios
               .get(
-                `${process.env.PROD_API_URL}/products/v1/search/wheel/?vehicleYear=${dataSearch[0]}&vehicleMake=${dataSearch[1]}&vehicleModel=${dataSearch[2]}&vehicleSubModel=${submodelname}`,
+                `${process.env.PROD_API_URL}/products/v1/search/wheel/?vehicleYear=${dataSearch[0]}&vehicleMake=${encodeURIComponent(dataSearch[1])}&vehicleModel=${encodeURIComponent(dataSearch[2])}&vehicleSubModel=${encodeURIComponent(submodelname)}&pageSize=1000&offSet=${offset}`,
                 {
                   headers: {
                     Authorization: `Bearer ${token}`,
@@ -292,14 +289,27 @@ client.connect(async (err) => {
               )
               .then(async function ({ data }) {
 
-                // await wheelsProSkuCollection.updateOne(
-                //   { modelData: modeldata.modelData },
-                //   {
-                //     $set: {
-                //       submodels: data
-                //     },
-                //   }
-                // );
+                let SkuArr = []
+                for (var skuData of data.results) {
+                  let { sku } = skuData
+                  SkuArr.push({ sku, filterData: `${submodelData.modelData};${submodelname}` })
+                }
+                if (SkuArr.length > 0) {
+                  const result = await wheelsProSkuCollection.insertMany(
+
+                    SkuArr
+
+                  );
+
+                  console.log(result.acknowledged, `for ${submodelData.modelData};${submodelname}`)
+                }
+                // console.dir(SkuArr, { 'maxArrayLength': null })
+                console.log(data.totalCount)
+                await wheelsProSkuCollection.insertOne({ totalCount: data.totalCount, FilterQuery: submodelData.modelData })
+                // console.log(`${data}`)
+                if (offset + 1000 < data.totalCount) {
+                  await fetchSkusBasesOnSubmodels(offset + 1000)
+                }
                 // handle success
                 console.log(`${data}`)
 
@@ -309,83 +319,87 @@ client.connect(async (err) => {
                 console.log(error);
 
               })
-
+          }
+          await fetchSkusBasesOnSubmodels()
         }
       } else {
         // console.log(`${process.env.PROD_API_URL}/products/v1/search/wheel?vehicleYear=${dataSearch[0]}&vehicleMake=${dataSearch[1]}&vehicleModel=${dataSearch[2]}`)
         // if (false)
-        await axios
-          .get(
-            `${process.env.PROD_API_URL}/products/v1/search/wheel?vehicleYear=${dataSearch[0]}&vehicleMake=${dataSearch[1]}&vehicleModel=${dataSearch[2]}&pageSize=1000`,
-            {
-              headers: {
-                Authorization: `Bearer ${token}`,
-                "Content-Type": "application/json",
-              },
-            }
-          )
-          .then(async function ({ data }) {
+        const fetchSkuBasedOnModels = async (offset = 0) => {
+          await axios
+            .get(
+              `${process.env.PROD_API_URL}/products/v1/search/wheel?vehicleYear=${dataSearch[0]}&vehicleMake=${encodeURIComponent(dataSearch[1])}&vehicleModel=${encodeURIComponent(dataSearch[2])}&pageSize=1000&offSet=${offset}`,
+              {
+                headers: {
+                  Authorization: `Bearer ${token}`,
+                  "Content-Type": "application/json",
+                },
+              }
+            )
+            .then(async function ({ data }) {
 
-            // handle success
+              // handle success
 
-            var SkuArr = []
-            for (var skuData of data.results) {
-              let { sku } = skuData
-              SkuArr.push({ sku, filterData: submodelData.modelData })
-            }
-            const result = await wheelsProSkuCollection.insertMany(
+              let SkuArr = []
+              for (var skuData of data.results) {
+                let { sku } = skuData
+                SkuArr.push({ sku, filterData: submodelData.modelData })
+              }
+              if (SkuArr.length > 0) {
+                const result = await wheelsProSkuCollection.insertMany(
 
-             SkuArr
+                  SkuArr
 
-            );
-           console.log(result)
-            // console.dir(SkuArr, { 'maxArrayLength': null })
-             console.log(data.totalCount)
-		  await wheelsProSkuCollection.insertOne({totalCount: data.totalCount, FilterQuery: submodelData.modelData})
-            // console.log(`${data}`)
+                );
+                console.log(result.acknowledged, `for ${submodelData.modelData}`)
 
-          })
-          .catch(async function (error) {
-            // handle error
-            console.log(error);
+              }
+              // console.dir(SkuArr, { 'maxArrayLength': null })
+              console.log(data.totalCount)
+              await wheelsProSkuCollection.insertOne({ totalCount: data.totalCount, FilterQuery: submodelData.modelData })
+              // console.log(`${data}`)
+              if (offset + 1000 < data.totalCount) {
+                await fetchSkuBasedOnModels(offset + 1000)
+              }
 
-          })
+            })
+            .catch(async function (error) {
+              // handle error
+              console.log(error);
+
+            })
+        }
+        await fetchSkuBasedOnModels()
 
       }
     }
   }
 
 
-//  await fetchMakes()
-//  await fetchModels()
-//  await fetchSubmodels()
-  await getSkus()
-
+  // await fetchMakes()
+  // await fetchModels()
+  // await fetchSubmodels()
+  // await getSkus()
+  console.log("Database building is done!")
   clearInterval(authFetch)
-  // axios
-  //   .get(
-  //     `${process.env.PROD_API_URL}/years/${year}/makes/${make}/models/${submodel}/`,
-  //     {
-  //       headers: {
-  //         Authorization: `Bearer ${process.env.WHEELPROS_TOKEN}`,
-  //         "Content-Type": "application/json",
-  //       },
-  //     }
-  //   )
-  //   .then(function ({ data }) {
-  //     // handle success
-  //     let years = data;
-  //     console.log(years);
-  //   })
-  //   .catch(function (error) {
-  //     // handle error
-  //     console.log(error);
-  //   })
-  //   .then(function () {
-  //     // always executed
-  //   });
 
-  // Fetches Wheelpros filtered Wheels
+
+  // Updates to the datastore of wheelsforless
+
+
+
+  let wheelsforlesscol = client.db("WheelPros_data").collection("wheelforless_backup");
+  let wheelsforlessdatastore = await wheelsforlesscol.find({}).toArray()
+
+  // wheelpros store 
+  let wheelprocol = client.db("WheelPros_data").collection("wheelProsSkuCollection");
+  let wheelprosdatastore = await wheelprocol.find({}).toArray()
+
+  console.log(wheelprosdatastore)
+
+  // for (let { sku: wheelSku, filter: wheelFiler } of wheelsforlessdatastore) {
+  //   console.log(wheelSku)
+  // }
   // axios
   //   .get(
   //     `${process.env.PROD_API_URL}https://api.wheelpros.com/products/v1/search/wheel?years=${year}&makes=${make}&=models`,
@@ -409,55 +423,54 @@ client.connect(async (err) => {
   //     // always executed
   //   });
 
-  if (false) {
-    // Fetches Shift4Shop store products
-    collection = client.db("WheelPros_data").collection("wheelforless_backup");
-    var offset = 0;
+  // Fetches Shift4Shop store products
+  collection = client.db("WheelPros_data").collection("wheelforless_backup");
+  var offset = 0;
 
-    const fetch3dcart = () => {
-      try {
-        const agent = new https.Agent({
-          rejectUnauthorized: false,
-        });
+  const fetch3dcart = () => {
+    try {
+      const agent = new https.Agent({
+        rejectUnauthorized: false,
+      });
 
-        axios
-          .get(
-            `${process.env.STORE_API_URL}/products?limit=200&offset=${offset}`,
+      axios
+        .get(
+          `${process.env.STORE_API_URL}/products?limit=200&offset=${offset}`,
 
-            {
-              httpsAgent: agent,
-              headers: {
-                "Content-Type": "application/json",
-                SecureURL: process.env.STORE_URL,
-                PrivateKey: process.env.PRIVATE_KEY,
-                Token: process.env.AUTH_TOKEN,
-              },
-            }
-          )
-          .then(async function ({ data }) {
-            // handle success
-            offset += 200;
-            console.log(offset);
-            // const { ExtraField10: filterfield } = data[0];
-            let DataArr = [];
-            data.forEach((e) => {
-              DataArr.push({ sku: e.SKUInfo.SKU, filter: e.ExtraField10 });
-            });
-            await collection.insertMany(DataArr);
-            fetch3dcart();
-          })
-          .catch(function (error) {
-            // handle error
-            console.log(error);
-            return;
-          })
-          .then(function () {
-            // always executed
+          {
+            httpsAgent: agent,
+            headers: {
+              "Content-Type": "application/json",
+              SecureURL: process.env.STORE_URL,
+              PrivateKey: process.env.PRIVATE_KEY,
+              Token: process.env.AUTH_TOKEN,
+            },
+          }
+        )
+        .then(async function ({ data }) {
+          // handle success
+          offset += 200;
+          console.log(offset);
+          // const { ExtraField10: filterfield } = data[0];
+          let DataArr = [];
+          data.forEach((e) => {
+            DataArr.push({ sku: e.SKUInfo.SKU, filter: e.ExtraField10 });
           });
-      } catch (error) {
-        console.log(error);
-      }
-    };
-    fetch3dcart();
-  }
+          await collection.insertMany(DataArr);
+          fetch3dcart();
+        })
+        .catch(function (error) {
+          // handle error
+          console.log(error);
+          return;
+        })
+        .then(function () {
+          // always executed
+        });
+    } catch (error) {
+      console.log(error);
+    }
+  };
+  // fetch3dcart();
+  console.log("Shift4Shop is done")
 });
