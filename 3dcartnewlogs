@@ -1,0 +1,5889 @@
+
+> wheelsforless-app@1.0.0 start
+> nodemon ./server/server.js
+
+[33m[nodemon] 2.0.19[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,json[39m
+[32m[nodemon] starting `node ./server/server.js`[39m
+no need to update years
+years 91
+Database building is done!
+AR1725865 [
+  {
+    Key: 'CatalogID',
+    Value: '10',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+1307100 [
+  {
+    Key: 'CatalogID',
+    Value: '11',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+1307100000 [
+  {
+    Key: 'CatalogID',
+    Value: '12',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+1307100S [
+  {
+    Key: 'CatalogID',
+    Value: '13',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+1326100941 [
+  {
+    Key: 'CatalogID',
+    Value: '14',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+1326106941 [
+  {
+    Key: 'CatalogID',
+    Value: '15',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+1327000 [
+  {
+    Key: 'CatalogID',
+    Value: '16',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+1327000016 [
+  {
+    Key: 'CatalogID',
+    Value: '17',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+1327000S [
+  {
+    Key: 'CatalogID',
+    Value: '18',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+133002020C0204 [
+  {
+    Key: 'CatalogID',
+    Value: '19',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+1339200016 [
+  {
+    Key: 'CatalogID',
+    Value: '20',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+1339290016 [
+  {
+    Key: 'CatalogID',
+    Value: '21',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+1342100000 [
+  {
+    Key: 'CatalogID',
+    Value: '22',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+1342106016 [
+  {
+    Key: 'CatalogID',
+    Value: '23',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+1342100022 [
+  {
+    Key: 'CatalogID',
+    Value: '24',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+1342100041C [
+  {
+    Key: 'CatalogID',
+    Value: '25',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+1342100S [
+  {
+    Key: 'CatalogID',
+    Value: '26',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+1425002 [
+  {
+    Key: 'CatalogID',
+    Value: '29',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+1425006022 [
+  {
+    Key: 'CatalogID',
+    Value: '30',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+1515000016 [
+  {
+    Key: 'CatalogID',
+    Value: '31',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+1515002SS [
+  {
+    Key: 'CatalogID',
+    Value: '32',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+1515002 [
+  {
+    Key: 'CatalogID',
+    Value: '33',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+1515006022 [
+  {
+    Key: 'CatalogID',
+    Value: '35',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+1628200041 [
+  {
+    Key: 'CatalogID',
+    Value: '36',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+1628206041 [
+  {
+    Key: 'CatalogID',
+    Value: '37',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+1637200011 [
+  {
+    Key: 'CatalogID',
+    Value: '38',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+1637206011 [
+  {
+    Key: 'CatalogID',
+    Value: '39',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+1639200016 [
+  {
+    Key: 'CatalogID',
+    Value: '40',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+1639290016 [
+  {
+    Key: 'CatalogID',
+    Value: '41',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+2902 [
+  {
+    Key: 'CatalogID',
+    Value: '42',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+353K133H [
+  {
+    Key: 'CatalogID',
+    Value: '52',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+353K83 [
+  {
+    Key: 'CatalogID',
+    Value: '53',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+5258XL-32 [
+  {
+    Key: 'CatalogID',
+    Value: '54',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+5350 [
+  {
+    Key: 'CatalogID',
+    Value: '55',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+5352 [
+  {
+    Key: 'CatalogID',
+    Value: '56',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+5354 [
+  {
+    Key: 'CatalogID',
+    Value: '57',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+5355 [
+  {
+    Key: 'CatalogID',
+    Value: '58',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+5357 [
+  {
+    Key: 'CatalogID',
+    Value: '59',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+5390 [
+  {
+    Key: 'CatalogID',
+    Value: '61',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+5392 [
+  {
+    Key: 'CatalogID',
+    Value: '63',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+5395 [
+  {
+    Key: 'CatalogID',
+    Value: '65',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+5397 [
+  {
+    Key: 'CatalogID',
+    Value: '66',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+5450 [
+  {
+    Key: 'CatalogID',
+    Value: '68',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+5452 [
+  {
+    Key: 'CatalogID',
+    Value: '70',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+5455 [
+  {
+    Key: 'CatalogID',
+    Value: '72',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+5456XL [
+  {
+    Key: 'CatalogID',
+    Value: '74',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+5457 [
+  {
+    Key: 'CatalogID',
+    Value: '77',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+5454XL [
+  {
+    Key: 'CatalogID',
+    Value: '79',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+5459L-20 [
+  {
+    Key: 'CatalogID',
+    Value: '81',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+5740 [
+  {
+    Key: 'CatalogID',
+    Value: '82',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+5742 [
+  {
+    Key: 'CatalogID',
+    Value: '83',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+5745 [
+  {
+    Key: 'CatalogID',
+    Value: '86',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+5746L [
+  {
+    Key: 'CatalogID',
+    Value: '88',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+5747 [
+  {
+    Key: 'CatalogID',
+    Value: '89',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+5748L [
+  {
+    Key: 'CatalogID',
+    Value: '90',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+789K101 [
+  {
+    Key: 'CatalogID',
+    Value: '92',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+789K88 [
+  {
+    Key: 'CatalogID',
+    Value: '93',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+791K149N [
+  {
+    Key: 'CatalogID',
+    Value: '94',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+791B142L [
+  {
+    Key: 'CatalogID',
+    Value: '95',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+791K81 [
+  {
+    Key: 'CatalogID',
+    Value: '96',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+845L121 [
+  {
+    Key: 'CatalogID',
+    Value: '97',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+845L140 [
+  {
+    Key: 'CatalogID',
+    Value: '98',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+845L140-2 [
+  {
+    Key: 'CatalogID',
+    Value: '99',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+845L145 [
+  {
+    Key: 'CatalogID',
+    Value: '100',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+845L170 [
+  {
+    Key: 'CatalogID',
+    Value: '101',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+846L215 [
+  {
+    Key: 'CatalogID',
+    Value: '102',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+846L215B [
+  {
+    Key: 'CatalogID',
+    Value: '103',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+898026 [
+  {
+    Key: 'CatalogID',
+    Value: '104',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+899060 [
+  {
+    Key: 'CatalogID',
+    Value: '105',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+954K114 [
+  {
+    Key: 'CatalogID',
+    Value: '106',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+954K126 [
+  {
+    Key: 'CatalogID',
+    Value: '107',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+954K136 [
+  {
+    Key: 'CatalogID',
+    Value: '108',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+954K136-1 [
+  {
+    Key: 'CatalogID',
+    Value: '109',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+954K168 [
+  {
+    Key: 'CatalogID',
+    Value: '110',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+970076 [
+  {
+    Key: 'CatalogID',
+    Value: '111',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+AR1725165 [
+  {
+    Key: 'CatalogID',
+    Value: '134',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+AR1725173 [
+  {
+    Key: 'CatalogID',
+    Value: '135',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+AR1725183 [
+  {
+    Key: 'CatalogID',
+    Value: '136',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+AR1725185 [
+  {
+    Key: 'CatalogID',
+    Value: '137',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+AR1725761 [
+  {
+    Key: 'CatalogID',
+    Value: '138',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+AR1725765 [
+  {
+    Key: 'CatalogID',
+    Value: '139',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+AR1725773 [
+  {
+    Key: 'CatalogID',
+    Value: '140',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+AR1725783 [
+  {
+    Key: 'CatalogID',
+    Value: '141',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+AR1725785 [
+  {
+    Key: 'CatalogID',
+    Value: '142',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+AR1725861 [
+  {
+    Key: 'CatalogID',
+    Value: '143',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+AR1725866 [
+  {
+    Key: 'CatalogID',
+    Value: '144',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+AR1725868 [
+  {
+    Key: 'CatalogID',
+    Value: '145',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+AR1725873 [
+  {
+    Key: 'CatalogID',
+    Value: '146',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+AR1725883 [
+  {
+    Key: 'CatalogID',
+    Value: '147',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+AR1725884 [
+  {
+    Key: 'CatalogID',
+    Value: '148',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+AR1726835 [
+  {
+    Key: 'CatalogID',
+    Value: '149',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+AR1726838 [
+  {
+    Key: 'CatalogID',
+    Value: '150',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+AR1726865 [
+  {
+    Key: 'CatalogID',
+    Value: '151',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+AR1726873 [
+  {
+    Key: 'CatalogID',
+    Value: '153',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+AR1726883 [
+  {
+    Key: 'CatalogID',
+    Value: '154',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+AR1726885 [
+  {
+    Key: 'CatalogID',
+    Value: '155',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+AR1727835 [
+  {
+    Key: 'CatalogID',
+    Value: '156',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+AR1727838 [
+  {
+    Key: 'CatalogID',
+    Value: '157',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+AR1727870 [
+  {
+    Key: 'CatalogID',
+    Value: '158',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+AR1727882 [
+  {
+    Key: 'CatalogID',
+    Value: '159',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+AR1727883 [
+  {
+    Key: 'CatalogID',
+    Value: '160',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+AR1727885 [
+  {
+    Key: 'CatalogID',
+    Value: '161',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+AR235173 [
+  {
+    Key: 'CatalogID',
+    Value: '162',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+AR235183 [
+  {
+    Key: 'CatalogID',
+    Value: '163',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+AR235185 [
+  {
+    Key: 'CatalogID',
+    Value: '164',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+AR235761 [
+  {
+    Key: 'CatalogID',
+    Value: '165',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+AR235765 [
+  {
+    Key: 'CatalogID',
+    Value: '166',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+AR235861 [
+  {
+    Key: 'CatalogID',
+    Value: '167',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+AR235865 [
+  {
+    Key: 'CatalogID',
+    Value: '168',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+AR235885 [
+  {
+    Key: 'CatalogID',
+    Value: '169',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+AR236882 [
+  {
+    Key: 'CatalogID',
+    Value: '170',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+AR236883 [
+  {
+    Key: 'CatalogID',
+    Value: '171',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+AR236885 [
+  {
+    Key: 'CatalogID',
+    Value: '172',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+AR614761 [
+  {
+    Key: 'CatalogID',
+    Value: '203',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+AR614765 [
+  {
+    Key: 'CatalogID',
+    Value: '204',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+AR615165 [
+  {
+    Key: 'CatalogID',
+    Value: '205',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+AR615173 [
+  {
+    Key: 'CatalogID',
+    Value: '206',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+AR615183 [
+  {
+    Key: 'CatalogID',
+    Value: '207',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+AR615185 [
+  {
+    Key: 'CatalogID',
+    Value: '208',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+AR615761 [
+  {
+    Key: 'CatalogID',
+    Value: '209',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+AR615765 [
+  {
+    Key: 'CatalogID',
+    Value: '210',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+AR615773 [
+  {
+    Key: 'CatalogID',
+    Value: '211',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+AR615861 [
+  {
+    Key: 'CatalogID',
+    Value: '212',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+AR615865 [
+  {
+    Key: 'CatalogID',
+    Value: '213',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+AR615873 [
+  {
+    Key: 'CatalogID',
+    Value: '214',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+AR615883 [
+  {
+    Key: 'CatalogID',
+    Value: '215',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+AR615885 [
+  {
+    Key: 'CatalogID',
+    Value: '216',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+AR624665 [
+  {
+    Key: 'CatalogID',
+    Value: '242',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+AR624734 [
+  {
+    Key: 'CatalogID',
+    Value: '243',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+AR624748 [
+  {
+    Key: 'CatalogID',
+    Value: '244',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+AR624761 [
+  {
+    Key: 'CatalogID',
+    Value: '245',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+AR624765 [
+  {
+    Key: 'CatalogID',
+    Value: '246',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+AR624769 [
+  {
+    Key: 'CatalogID',
+    Value: '247',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+AR625165 [
+  {
+    Key: 'CatalogID',
+    Value: '248',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+AR625173 [
+  {
+    Key: 'CatalogID',
+    Value: '249',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+AR625183 [
+  {
+    Key: 'CatalogID',
+    Value: '250',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+AR625185 [
+  {
+    Key: 'CatalogID',
+    Value: '251',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+AR625761 [
+  {
+    Key: 'CatalogID',
+    Value: '252',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+AR625762 [
+  {
+    Key: 'CatalogID',
+    Value: '253',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+AR625765 [
+  {
+    Key: 'CatalogID',
+    Value: '254',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+AR625773 [
+  {
+    Key: 'CatalogID',
+    Value: '255',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+AR625783 [
+  {
+    Key: 'CatalogID',
+    Value: '256',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+AR625785 [
+  {
+    Key: 'CatalogID',
+    Value: '257',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+AR625861 [
+  {
+    Key: 'CatalogID',
+    Value: '258',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+AR625865 [
+  {
+    Key: 'CatalogID',
+    Value: '259',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+AR625873 [
+  {
+    Key: 'CatalogID',
+    Value: '260',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+AR625883 [
+  {
+    Key: 'CatalogID',
+    Value: '261',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+AR625885 [
+  {
+    Key: 'CatalogID',
+    Value: '262',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+AR626170 [
+  {
+    Key: 'CatalogID',
+    Value: '263',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+AR626182 [
+  {
+    Key: 'CatalogID',
+    Value: '264',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+AR626782 [
+  {
+    Key: 'CatalogID',
+    Value: '265',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+AR626835 [
+  {
+    Key: 'CatalogID',
+    Value: '266',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+AR626838 [
+  {
+    Key: 'CatalogID',
+    Value: '267',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+AR626865 [
+  {
+    Key: 'CatalogID',
+    Value: '268',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+AR626870 [
+  {
+    Key: 'CatalogID',
+    Value: '269',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+AR626882 [
+  {
+    Key: 'CatalogID',
+    Value: '270',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+AR626883 [
+  {
+    Key: 'CatalogID',
+    Value: '271',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+AR626885 [
+  {
+    Key: 'CatalogID',
+    Value: '272',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+AR89322968218 [
+  {
+    Key: 'CatalogID',
+    Value: '359',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+AR89328550215 [
+  {
+    Key: 'CatalogID',
+    Value: '363',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+AR89328555215 [
+  {
+    Key: 'CatalogID',
+    Value: '367',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+AR89328563235 [
+  {
+    Key: 'CatalogID',
+    Value: '369',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+AR89328563335 [
+  {
+    Key: 'CatalogID',
+    Value: '370',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+AR89328568215 [
+  {
+    Key: 'CatalogID',
+    Value: '371',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+AR89328568235 [
+  {
+    Key: 'CatalogID',
+    Value: '372',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+AR89328568315 [
+  {
+    Key: 'CatalogID',
+    Value: '373',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+AR89328568335 [
+  {
+    Key: 'CatalogID',
+    Value: '374',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+AR89368068200 [
+  {
+    Key: 'CatalogID',
+    Value: '381',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+AR89368068300 [
+  {
+    Key: 'CatalogID',
+    Value: '382',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+AR89378063225 [
+  {
+    Key: 'CatalogID',
+    Value: '390',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+AR89378063325 [
+  {
+    Key: 'CatalogID',
+    Value: '391',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+AR89378068200 [
+  {
+    Key: 'CatalogID',
+    Value: '392',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+AR89378068225 [
+  {
+    Key: 'CatalogID',
+    Value: '393',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+AR89378068300 [
+  {
+    Key: 'CatalogID',
+    Value: '394',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+AR89378068325 [
+  {
+    Key: 'CatalogID',
+    Value: '395',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+AR89388563230 [
+  {
+    Key: 'CatalogID',
+    Value: '401',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+AR89388563330 [
+  {
+    Key: 'CatalogID',
+    Value: '403',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+AR89388568212 [
+  {
+    Key: 'CatalogID',
+    Value: '404',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+AR89388568230 [
+  {
+    Key: 'CatalogID',
+    Value: '405',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+AR89388568312 [
+  {
+    Key: 'CatalogID',
+    Value: '406',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+AR89388568330 [
+  {
+    Key: 'CatalogID',
+    Value: '407',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+C101710 [
+  {
+    Key: 'CatalogID',
+    Value: '671',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+C101711 [
+  {
+    Key: 'CatalogID',
+    Value: '672',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+C101712 [
+  {
+    Key: 'CatalogID',
+    Value: '673',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+C101713 [
+  {
+    Key: 'CatalogID',
+    Value: '674',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+C1680 [
+  {
+    Key: 'CatalogID',
+    Value: '675',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+C1681 [
+  {
+    Key: 'CatalogID',
+    Value: '676',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+C1682 [
+  {
+    Key: 'CatalogID',
+    Value: '677',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+C1683 [
+  {
+    Key: 'CatalogID',
+    Value: '678',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+C1684 [
+  {
+    Key: 'CatalogID',
+    Value: '679',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+D50820208247 [
+  {
+    Key: 'CatalogID',
+    Value: '682',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+HE7916087225 [
+  {
+    Key: 'CatalogID',
+    Value: '1508',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+HE7916860200 [
+  {
+    Key: 'CatalogID',
+    Value: '1509',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+HE7916860300 [
+  {
+    Key: 'CatalogID',
+    Value: '1510',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+HE7916880200 [
+  {
+    Key: 'CatalogID',
+    Value: '1511',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+HE7916880300 [
+  {
+    Key: 'CatalogID',
+    Value: '1512',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+HE7917855206 [
+  {
+    Key: 'CatalogID',
+    Value: '1514',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+HE7917880206 [
+  {
+    Key: 'CatalogID',
+    Value: '1516',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+HE7917913212AA [
+  {
+    Key: 'CatalogID',
+    Value: '1521',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+HE7917913312AA [
+  {
+    Key: 'CatalogID',
+    Value: '1523',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+HE7917913312AA [
+  {
+    Key: 'CatalogID',
+    Value: '1523',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+HE7917960212AA [
+  {
+    Key: 'CatalogID',
+    Value: '1528',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+HE7917960218AA [
+  {
+    Key: 'CatalogID',
+    Value: '1529',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+HE7917960312AA [
+  {
+    Key: 'CatalogID',
+    Value: '1530',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+HE7917960318AA [
+  {
+    Key: 'CatalogID',
+    Value: '1531',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+HE7917980212AA [
+  {
+    Key: 'CatalogID',
+    Value: '1534',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+HE7917980312AA [
+  {
+    Key: 'CatalogID',
+    Value: '1535',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+HE7917987212AA [
+  {
+    Key: 'CatalogID',
+    Value: '1536',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+HE7918960212 [
+  {
+    Key: 'CatalogID',
+    Value: '1542',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+HE7918960218 [
+  {
+    Key: 'CatalogID',
+    Value: '1543',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+HE7918960318 [
+  {
+    Key: 'CatalogID',
+    Value: '1545',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+HE7918963210AA [
+  {
+    Key: 'CatalogID',
+    Value: '1546',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+HE7918980212 [
+  {
+    Key: 'CatalogID',
+    Value: '1548',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+HE7918987212 [
+  {
+    Key: 'CatalogID',
+    Value: '1550',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+HE83529055318 [
+  {
+    Key: 'CatalogID',
+    Value: '1560',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+HE83529068218 [
+  {
+    Key: 'CatalogID',
+    Value: '1561',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+HE83529068318 [
+  {
+    Key: 'CatalogID',
+    Value: '1562',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+HE83529087318 [
+  {
+    Key: 'CatalogID',
+    Value: '1565',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+HE83578055300 [
+  {
+    Key: 'CatalogID',
+    Value: '1566',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+HE83578068300 [
+  {
+    Key: 'CatalogID',
+    Value: '1568',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+HE83578080300 [
+  {
+    Key: 'CatalogID',
+    Value: '1570',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+HE83578087300 [
+  {
+    Key: 'CatalogID',
+    Value: '1572',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+HE83589068318 [
+  {
+    Key: 'CatalogID',
+    Value: '1574',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+133-7985B [
+  {
+    Key: 'CatalogID',
+    Value: '1668',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+171-2970B [
+  {
+    Key: 'CatalogID',
+    Value: '1751',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+171-2981B [
+  {
+    Key: 'CatalogID',
+    Value: '1753',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+171-2983B [
+  {
+    Key: 'CatalogID',
+    Value: '1755',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+171-5161B [
+  {
+    Key: 'CatalogID',
+    Value: '1757',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+171-5165B [
+  {
+    Key: 'CatalogID',
+    Value: '1758',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+171-5165P [
+  {
+    Key: 'CatalogID',
+    Value: '1759',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+171-5173B [
+  {
+    Key: 'CatalogID',
+    Value: '1760',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+171-5173P [
+  {
+    Key: 'CatalogID',
+    Value: '1761',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+171-5183B [
+  {
+    Key: 'CatalogID',
+    Value: '1762',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+171-5183P [
+  {
+    Key: 'CatalogID',
+    Value: '1763',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+171-5185P [
+  {
+    Key: 'CatalogID',
+    Value: '1764',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+171-5861B [
+  {
+    Key: 'CatalogID',
+    Value: '1765',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+171-5861P [
+  {
+    Key: 'CatalogID',
+    Value: '1766',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+171-5865B [
+  {
+    Key: 'CatalogID',
+    Value: '1767',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+171-5865P [
+  {
+    Key: 'CatalogID',
+    Value: '1768',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+171-5873B [
+  {
+    Key: 'CatalogID',
+    Value: '1769',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+171-5873P [
+  {
+    Key: 'CatalogID',
+    Value: '1770',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+171-5883B [
+  {
+    Key: 'CatalogID',
+    Value: '1771',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+171-5883P [
+  {
+    Key: 'CatalogID',
+    Value: '1772',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+171-5885B [
+  {
+    Key: 'CatalogID',
+    Value: '1773',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+171-5885P [
+  {
+    Key: 'CatalogID',
+    Value: '1774',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+171-6135P [
+  {
+    Key: 'CatalogID',
+    Value: '1775',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+171-6170B [
+  {
+    Key: 'CatalogID',
+    Value: '1776',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+171-6170P [
+  {
+    Key: 'CatalogID',
+    Value: '1777',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+171-6181B [
+  {
+    Key: 'CatalogID',
+    Value: '1778',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+171-6181P [
+  {
+    Key: 'CatalogID',
+    Value: '1779',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+171-6183B [
+  {
+    Key: 'CatalogID',
+    Value: '1780',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+171-6183P [
+  {
+    Key: 'CatalogID',
+    Value: '1781',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+171-6185B [
+  {
+    Key: 'CatalogID',
+    Value: '1782',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+171-6185P [
+  {
+    Key: 'CatalogID',
+    Value: '1783',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+171-6835B [
+  {
+    Key: 'CatalogID',
+    Value: '1784',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+171-6835P [
+  {
+    Key: 'CatalogID',
+    Value: '1785',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+171-6870B [
+  {
+    Key: 'CatalogID',
+    Value: '1786',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+171-6870P [
+  {
+    Key: 'CatalogID',
+    Value: '1787',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+171-6881B [
+  {
+    Key: 'CatalogID',
+    Value: '1788',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+171-6881P [
+  {
+    Key: 'CatalogID',
+    Value: '1789',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+171-6883B [
+  {
+    Key: 'CatalogID',
+    Value: '1790',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+171-6883P [
+  {
+    Key: 'CatalogID',
+    Value: '1791',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+171-6885B [
+  {
+    Key: 'CatalogID',
+    Value: '1792',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+171-6885P [
+  {
+    Key: 'CatalogID',
+    Value: '1793',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+171-7965B [
+  {
+    Key: 'CatalogID',
+    Value: '1794',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+171-7965P [
+  {
+    Key: 'CatalogID',
+    Value: '1795',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+171-7970B [
+  {
+    Key: 'CatalogID',
+    Value: '1796',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+171-7970P [
+  {
+    Key: 'CatalogID',
+    Value: '1797',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+171-7973B [
+  {
+    Key: 'CatalogID',
+    Value: '1798',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+171-7981B [
+  {
+    Key: 'CatalogID',
+    Value: '1799',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+171-7981P [
+  {
+    Key: 'CatalogID',
+    Value: '1800',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+171-7983B [
+  {
+    Key: 'CatalogID',
+    Value: '1801',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+171-7983P [
+  {
+    Key: 'CatalogID',
+    Value: '1802',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+171-8970B [
+  {
+    Key: 'CatalogID',
+    Value: '1803',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+171-8970P [
+  {
+    Key: 'CatalogID',
+    Value: '1804',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+171-8981B [
+  {
+    Key: 'CatalogID',
+    Value: '1805',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+171-8981P [
+  {
+    Key: 'CatalogID',
+    Value: '1806',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+171-8983B [
+  {
+    Key: 'CatalogID',
+    Value: '1807',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+171-8983P [
+  {
+    Key: 'CatalogID',
+    Value: '1808',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+174-5165B [
+  {
+    Key: 'CatalogID',
+    Value: '1814',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+174-5173B [
+  {
+    Key: 'CatalogID',
+    Value: '1815',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+174-5183B [
+  {
+    Key: 'CatalogID',
+    Value: '1816',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+174-5185B [
+  {
+    Key: 'CatalogID',
+    Value: '1817',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+174-5861B [
+  {
+    Key: 'CatalogID',
+    Value: '1818',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+174-5865B [
+  {
+    Key: 'CatalogID',
+    Value: '1819',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+174-5873B [
+  {
+    Key: 'CatalogID',
+    Value: '1820',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+174-5883B [
+  {
+    Key: 'CatalogID',
+    Value: '1821',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+174-5885B [
+  {
+    Key: 'CatalogID',
+    Value: '1822',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+174-6135B [
+  {
+    Key: 'CatalogID',
+    Value: '1823',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+174-6165B [
+  {
+    Key: 'CatalogID',
+    Value: '1824',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+174-6170B [
+  {
+    Key: 'CatalogID',
+    Value: '1825',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+174-6181B [
+  {
+    Key: 'CatalogID',
+    Value: '1826',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+174-6183B [
+  {
+    Key: 'CatalogID',
+    Value: '1827',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+174-6185B [
+  {
+    Key: 'CatalogID',
+    Value: '1828',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+174-6835B [
+  {
+    Key: 'CatalogID',
+    Value: '1829',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+174-6865B [
+  {
+    Key: 'CatalogID',
+    Value: '1830',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+174-6870B [
+  {
+    Key: 'CatalogID',
+    Value: '1831',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+174-6873B [
+  {
+    Key: 'CatalogID',
+    Value: '1832',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+174-6881B [
+  {
+    Key: 'CatalogID',
+    Value: '1833',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+174-6883B [
+  {
+    Key: 'CatalogID',
+    Value: '1834',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+174-6885B [
+  {
+    Key: 'CatalogID',
+    Value: '1835',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+174-7935B [
+  {
+    Key: 'CatalogID',
+    Value: '1836',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+174-7965B [
+  {
+    Key: 'CatalogID',
+    Value: '1837',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+174-7970B [
+  {
+    Key: 'CatalogID',
+    Value: '1838',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+174-7973B [
+  {
+    Key: 'CatalogID',
+    Value: '1839',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+174-7981B [
+  {
+    Key: 'CatalogID',
+    Value: '1840',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+174-7983B [
+  {
+    Key: 'CatalogID',
+    Value: '1841',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+174-7985B [
+  {
+    Key: 'CatalogID',
+    Value: '1842',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+174-8970B [
+  {
+    Key: 'CatalogID',
+    Value: '1843',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+174-8981B [
+  {
+    Key: 'CatalogID',
+    Value: '1844',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+174-8983B [
+  {
+    Key: 'CatalogID',
+    Value: '1845',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+179-2936B [
+  {
+    Key: 'CatalogID',
+    Value: '1848',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+179-2950B [
+  {
+    Key: 'CatalogID',
+    Value: '1850',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+179-2970B [
+  {
+    Key: 'CatalogID',
+    Value: '1852',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+179-2973B [
+  {
+    Key: 'CatalogID',
+    Value: '1854',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+179-2981B [
+  {
+    Key: 'CatalogID',
+    Value: '1856',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+179-2983B [
+  {
+    Key: 'CatalogID',
+    Value: '1858',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+179-2985B [
+  {
+    Key: 'CatalogID',
+    Value: '1860',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+179-7836B [
+  {
+    Key: 'CatalogID',
+    Value: '1862',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+179-7865B [
+  {
+    Key: 'CatalogID',
+    Value: '1864',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+179-7870B [
+  {
+    Key: 'CatalogID',
+    Value: '1865',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+179-7873B [
+  {
+    Key: 'CatalogID',
+    Value: '1867',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+179-7881B [
+  {
+    Key: 'CatalogID',
+    Value: '1868',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+179-7883B [
+  {
+    Key: 'CatalogID',
+    Value: '1870',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+179-7935B [
+  {
+    Key: 'CatalogID',
+    Value: '1872',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+179-7970B [
+  {
+    Key: 'CatalogID',
+    Value: '1874',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+179-7973B [
+  {
+    Key: 'CatalogID',
+    Value: '1876',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+179-7981B [
+  {
+    Key: 'CatalogID',
+    Value: '1878',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+179-7983B [
+  {
+    Key: 'CatalogID',
+    Value: '1880',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+179-7985B [
+  {
+    Key: 'CatalogID',
+    Value: '1882',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+179-8935B [
+  {
+    Key: 'CatalogID',
+    Value: '1884',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+179-8936B [
+  {
+    Key: 'CatalogID',
+    Value: '1886',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+179-8950B [
+  {
+    Key: 'CatalogID',
+    Value: '1888',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+179-8970B [
+  {
+    Key: 'CatalogID',
+    Value: '1890',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+179-8973B [
+  {
+    Key: 'CatalogID',
+    Value: '1892',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+179-8981B [
+  {
+    Key: 'CatalogID',
+    Value: '1894',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+179-8983B [
+  {
+    Key: 'CatalogID',
+    Value: '1896',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+179-8985B [
+  {
+    Key: 'CatalogID',
+    Value: '1898',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+8030-22237C [
+  {
+    Key: 'CatalogID',
+    Value: '2304',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+8030-22237MB [
+  {
+    Key: 'CatalogID',
+    Value: '2305',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+8030-22276C [
+  {
+    Key: 'CatalogID',
+    Value: '2306',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+8030-22276MB [
+  {
+    Key: 'CatalogID',
+    Value: '2307',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+8030-2237C [
+  {
+    Key: 'CatalogID',
+    Value: '2310',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+8030-2276C [
+  {
+    Key: 'CatalogID',
+    Value: '2311',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+8030-2276MB [
+  {
+    Key: 'CatalogID',
+    Value: '2312',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+8030-2278C [
+  {
+    Key: 'CatalogID',
+    Value: '2313',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+8030-2278MB [
+  {
+    Key: 'CatalogID',
+    Value: '2314',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+8030-2937C [
+  {
+    Key: 'CatalogID',
+    Value: '2315',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+8030-2937C18 [
+  {
+    Key: 'CatalogID',
+    Value: '2316',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+8030-2937MB [
+  {
+    Key: 'CatalogID',
+    Value: '2317',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+8030-2937MB18 [
+  {
+    Key: 'CatalogID',
+    Value: '2318',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+8030-2953C [
+  {
+    Key: 'CatalogID',
+    Value: '2319',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+8030-2953MB [
+  {
+    Key: 'CatalogID',
+    Value: '2320',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+8030-2976C [
+  {
+    Key: 'CatalogID',
+    Value: '2321',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+8030-2976C18 [
+  {
+    Key: 'CatalogID',
+    Value: '2322',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+8030-2976MB18 [
+  {
+    Key: 'CatalogID',
+    Value: '2323',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+8030-2978C [
+  {
+    Key: 'CatalogID',
+    Value: '2324',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+8030-2978MB [
+  {
+    Key: 'CatalogID',
+    Value: '2325',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+8030-2997C [
+  {
+    Key: 'CatalogID',
+    Value: '2326',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+8030-2997MB [
+  {
+    Key: 'CatalogID',
+    Value: '2327',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+8030-8937C [
+  {
+    Key: 'CatalogID',
+    Value: '2328',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+8030-8937C18 [
+  {
+    Key: 'CatalogID',
+    Value: '2329',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+8030-8937MB [
+  {
+    Key: 'CatalogID',
+    Value: '2330',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+8030-8953C [
+  {
+    Key: 'CatalogID',
+    Value: '2331',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+8030-8953MB [
+  {
+    Key: 'CatalogID',
+    Value: '2332',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+8030-8976C [
+  {
+    Key: 'CatalogID',
+    Value: '2333',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+8030-8976C18 [
+  {
+    Key: 'CatalogID',
+    Value: '2334',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+8030-8976MB [
+  {
+    Key: 'CatalogID',
+    Value: '2335',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+8030-8976MB18 [
+  {
+    Key: 'CatalogID',
+    Value: '2336',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+8030-8978C [
+  {
+    Key: 'CatalogID',
+    Value: '2337',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+8030-8978MB [
+  {
+    Key: 'CatalogID',
+    Value: '2338',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+8030-8997C [
+  {
+    Key: 'CatalogID',
+    Value: '2339',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+8030-8997MB [
+  {
+    Key: 'CatalogID',
+    Value: '2340',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+N200-000 [
+  {
+    Key: 'CatalogID',
+    Value: '2647',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+N200-010 [
+  {
+    Key: 'CatalogID',
+    Value: '2648',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+N200-020 [
+  {
+    Key: 'CatalogID',
+    Value: '2649',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+N200-030 [
+  {
+    Key: 'CatalogID',
+    Value: '2650',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+N200-040 [
+  {
+    Key: 'CatalogID',
+    Value: '2651',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+N200-050 [
+  {
+    Key: 'CatalogID',
+    Value: '2652',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+N200-230 [
+  {
+    Key: 'CatalogID',
+    Value: '2654',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+N200-360 [
+  {
+    Key: 'CatalogID',
+    Value: '2657',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+N200-370 [
+  {
+    Key: 'CatalogID',
+    Value: '2658',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+N201-180 [
+  {
+    Key: 'CatalogID',
+    Value: '2662',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+N200-500 [
+  {
+    Key: 'CatalogID',
+    Value: '2667',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+N200-510 [
+  {
+    Key: 'CatalogID',
+    Value: '2668',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+N200-520 [
+  {
+    Key: 'CatalogID',
+    Value: '2669',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+N200-540 [
+  {
+    Key: 'CatalogID',
+    Value: '2670',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+N200-550 [
+  {
+    Key: 'CatalogID',
+    Value: '2671',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+N200-570 [
+  {
+    Key: 'CatalogID',
+    Value: '2673',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+N200-580 [
+  {
+    Key: 'CatalogID',
+    Value: '2674',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+N200-600 [
+  {
+    Key: 'CatalogID',
+    Value: '2675',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+N200-630 [
+  {
+    Key: 'CatalogID',
+    Value: '2676',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+N200-650 [
+  {
+    Key: 'CatalogID',
+    Value: '2678',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+N200-660 [
+  {
+    Key: 'CatalogID',
+    Value: '2679',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+N200-670 [
+  {
+    Key: 'CatalogID',
+    Value: '2680',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+N200-680 [
+  {
+    Key: 'CatalogID',
+    Value: '2681',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+N200-690 [
+  {
+    Key: 'CatalogID',
+    Value: '2682',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+N200-720 [
+  {
+    Key: 'CatalogID',
+    Value: '2683',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+N200-760 [
+  {
+    Key: 'CatalogID',
+    Value: '2684',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+N200-770 [
+  {
+    Key: 'CatalogID',
+    Value: '2685',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+N200-780 [
+  {
+    Key: 'CatalogID',
+    Value: '2686',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+N200-880 [
+  {
+    Key: 'CatalogID',
+    Value: '2695',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+N202-000 [
+  {
+    Key: 'CatalogID',
+    Value: '2709',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+N202-050 [
+  {
+    Key: 'CatalogID',
+    Value: '2712',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+N202-060 [
+  {
+    Key: 'CatalogID',
+    Value: '2713',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+N202-070 [
+  {
+    Key: 'CatalogID',
+    Value: '2714',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+N202-080 [
+  {
+    Key: 'CatalogID',
+    Value: '2715',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+N202-090 [
+  {
+    Key: 'CatalogID',
+    Value: '2716',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+N202-100 [
+  {
+    Key: 'CatalogID',
+    Value: '2717',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+N202-110 [
+  {
+    Key: 'CatalogID',
+    Value: '2718',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+N202-150 [
+  {
+    Key: 'CatalogID',
+    Value: '2721',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+N202-160 [
+  {
+    Key: 'CatalogID',
+    Value: '2722',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+N202-190 [
+  {
+    Key: 'CatalogID',
+    Value: '2723',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+N202-200 [
+  {
+    Key: 'CatalogID',
+    Value: '2724',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+N202-220 [
+  {
+    Key: 'CatalogID',
+    Value: '2725',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+N202-250 [
+  {
+    Key: 'CatalogID',
+    Value: '2726',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+N202-290 [
+  {
+    Key: 'CatalogID',
+    Value: '2728',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+N202-300 [
+  {
+    Key: 'CatalogID',
+    Value: '2729',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+N202-310 [
+  {
+    Key: 'CatalogID',
+    Value: '2730',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+N202-880 [
+  {
+    Key: 'CatalogID',
+    Value: '2753',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+N205-000 [
+  {
+    Key: 'CatalogID',
+    Value: '2755',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+N205-010 [
+  {
+    Key: 'CatalogID',
+    Value: '2756',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+N205-030 [
+  {
+    Key: 'CatalogID',
+    Value: '2758',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+N205-050 [
+  {
+    Key: 'CatalogID',
+    Value: '2760',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+N205-070 [
+  {
+    Key: 'CatalogID',
+    Value: '2762',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+N205-080 [
+  {
+    Key: 'CatalogID',
+    Value: '2763',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+N205-090 [
+  {
+    Key: 'CatalogID',
+    Value: '2764',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+N205-110 [
+  {
+    Key: 'CatalogID',
+    Value: '2766',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+N205-130 [
+  {
+    Key: 'CatalogID',
+    Value: '2768',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+N205-140 [
+  {
+    Key: 'CatalogID',
+    Value: '2769',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+N205-150 [
+  {
+    Key: 'CatalogID',
+    Value: '2770',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+N205-160 [
+  {
+    Key: 'CatalogID',
+    Value: '2771',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+N205-170 [
+  {
+    Key: 'CatalogID',
+    Value: '2772',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+N205-200 [
+  {
+    Key: 'CatalogID',
+    Value: '2773',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+N205-270 [
+  {
+    Key: 'CatalogID',
+    Value: '2774',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+N205-340 [
+  {
+    Key: 'CatalogID',
+    Value: '2775',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+N205-350 [
+  {
+    Key: 'CatalogID',
+    Value: '2776',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+N205-360 [
+  {
+    Key: 'CatalogID',
+    Value: '2777',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+N205-370 [
+  {
+    Key: 'CatalogID',
+    Value: '2778',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+N205-380 [
+  {
+    Key: 'CatalogID',
+    Value: '2779',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+N205-700 [
+  {
+    Key: 'CatalogID',
+    Value: '2780',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+N205-940 [
+  {
+    Key: 'CatalogID',
+    Value: '2781',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+N205-720 [
+  {
+    Key: 'CatalogID',
+    Value: '2782',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+N205-730 [
+  {
+    Key: 'CatalogID',
+    Value: '2783',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+N206-600 [
+  {
+    Key: 'CatalogID',
+    Value: '2785',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+N205-760 [
+  {
+    Key: 'CatalogID',
+    Value: '2786',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+N205-770 [
+  {
+    Key: 'CatalogID',
+    Value: '2787',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+N205-780 [
+  {
+    Key: 'CatalogID',
+    Value: '2788',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+N205-910 [
+  {
+    Key: 'CatalogID',
+    Value: '2789',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+N205-800 [
+  {
+    Key: 'CatalogID',
+    Value: '2790',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+N205-810 [
+  {
+    Key: 'CatalogID',
+    Value: '2791',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+N205-820 [
+  {
+    Key: 'CatalogID',
+    Value: '2792',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+N205-830 [
+  {
+    Key: 'CatalogID',
+    Value: '2793',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+VN87029062230 [
+  {
+    Key: 'CatalogID',
+    Value: '2831',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+D50820209847 [
+  {
+    Key: 'CatalogID',
+    Value: '3309',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+66-2059 [
+  {
+    Key: 'CatalogID',
+    Value: '3315',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+66-2050 [
+  {
+    Key: 'CatalogID',
+    Value: '3316',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+66-2058 [
+  {
+    Key: 'CatalogID',
+    Value: '3317',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+66-3085 [
+  {
+    Key: 'CatalogID',
+    Value: '3318',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+66-3000 [
+  {
+    Key: 'CatalogID',
+    Value: '3319',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+66-3002 [
+  {
+    Key: 'CatalogID',
+    Value: '3320',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+66-3003 [
+  {
+    Key: 'CatalogID',
+    Value: '3321',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+66-1000 [
+  {
+    Key: 'CatalogID',
+    Value: '3322',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+66-1020 [
+  {
+    Key: 'CatalogID',
+    Value: '3323',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+66-1031 [
+  {
+    Key: 'CatalogID',
+    Value: '3324',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+66-1035 [
+  {
+    Key: 'CatalogID',
+    Value: '3325',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+66-1055 [
+  {
+    Key: 'CatalogID',
+    Value: '3326',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+66-1090 [
+  {
+    Key: 'CatalogID',
+    Value: '3327',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+66-1101 [
+  {
+    Key: 'CatalogID',
+    Value: '3328',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+66-1102 [
+  {
+    Key: 'CatalogID',
+    Value: '3329',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+66-2000 [
+  {
+    Key: 'CatalogID',
+    Value: '3330',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+66-2511 [
+  {
+    Key: 'CatalogID',
+    Value: '3331',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+66-2051 [
+  {
+    Key: 'CatalogID',
+    Value: '3332',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+66-2053 [
+  {
+    Key: 'CatalogID',
+    Value: '3333',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+66-2095 [
+  {
+    Key: 'CatalogID',
+    Value: '3334',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+66-3025 [
+  {
+    Key: 'CatalogID',
+    Value: '3335',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+AR105M7761A [
+  {
+    Key: 'CatalogID',
+    Value: '3369',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+AR105M7761B [
+  {
+    Key: 'CatalogID',
+    Value: '3370',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+AR105M7765A [
+  {
+    Key: 'CatalogID',
+    Value: '3371',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+AR105M7765B [
+  {
+    Key: 'CatalogID',
+    Value: '3372',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+AR105M7861A [
+  {
+    Key: 'CatalogID',
+    Value: '3373',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+AR105M7861B [
+  {
+    Key: 'CatalogID',
+    Value: '3374',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+AR105M7865A [
+  {
+    Key: 'CatalogID',
+    Value: '3375',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+AR105M7865B [
+  {
+    Key: 'CatalogID',
+    Value: '3376',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+AR105M7866A [
+  {
+    Key: 'CatalogID',
+    Value: '3377',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+AR105M7866B [
+  {
+    Key: 'CatalogID',
+    Value: '3378',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+AR105M7961A [
+  {
+    Key: 'CatalogID',
+    Value: '3379',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+AR105M7961B [
+  {
+    Key: 'CatalogID',
+    Value: '3380',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+AR105M7965A [
+  {
+    Key: 'CatalogID',
+    Value: '3381',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+AR105M7965B [
+  {
+    Key: 'CatalogID',
+    Value: '3382',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+AR105M8165A [
+  {
+    Key: 'CatalogID',
+    Value: '3385',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+AR105M8165B [
+  {
+    Key: 'CatalogID',
+    Value: '3386',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+AR105M8166A [
+  {
+    Key: 'CatalogID',
+    Value: '3387',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+AR105M8166B [
+  {
+    Key: 'CatalogID',
+    Value: '3388',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+AR105M8861A [
+  {
+    Key: 'CatalogID',
+    Value: '3389',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+AR105M8861B [
+  {
+    Key: 'CatalogID',
+    Value: '3390',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+AR105M8865A [
+  {
+    Key: 'CatalogID',
+    Value: '3391',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+AR105M8865B [
+  {
+    Key: 'CatalogID',
+    Value: '3392',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+AR105M8912B [
+  {
+    Key: 'CatalogID',
+    Value: '3394',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+AR105M8965A [
+  {
+    Key: 'CatalogID',
+    Value: '3395',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+AR105M8965B [
+  {
+    Key: 'CatalogID',
+    Value: '3396',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+AR105M8966A [
+  {
+    Key: 'CatalogID',
+    Value: '3397',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+AR105M8966B [
+  {
+    Key: 'CatalogID',
+    Value: '3398',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+AR605M7761C [
+  {
+    Key: 'CatalogID',
+    Value: '3454',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+AR605M7765C [
+  {
+    Key: 'CatalogID',
+    Value: '3455',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+AR605M7861C [
+  {
+    Key: 'CatalogID',
+    Value: '3456',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+AR605M7865C [
+  {
+    Key: 'CatalogID',
+    Value: '3457',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+AR605M7866C [
+  {
+    Key: 'CatalogID',
+    Value: '3458',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+AR605M7961C [
+  {
+    Key: 'CatalogID',
+    Value: '3459',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+AR605M7965C [
+  {
+    Key: 'CatalogID',
+    Value: '3460',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+AR605M8165C [
+  {
+    Key: 'CatalogID',
+    Value: '3462',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+AR605M8166C [
+  {
+    Key: 'CatalogID',
+    Value: '3463',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+AR605M8861C [
+  {
+    Key: 'CatalogID',
+    Value: '3464',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+AR605M8865C [
+  {
+    Key: 'CatalogID',
+    Value: '3465',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+AR605M8912C [
+  {
+    Key: 'CatalogID',
+    Value: '3466',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+AR605M8965C [
+  {
+    Key: 'CatalogID',
+    Value: '3467',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+AR605M8966C [
+  {
+    Key: 'CatalogID',
+    Value: '3468',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+AR954616 [
+  {
+    Key: 'CatalogID',
+    Value: '3877',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+AR954617 [
+  {
+    Key: 'CatalogID',
+    Value: '3878',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+AR955714 [
+  {
+    Key: 'CatalogID',
+    Value: '3879',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+AR955716 [
+  {
+    Key: 'CatalogID',
+    Value: '3880',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+AR955717 [
+  {
+    Key: 'CatalogID',
+    Value: '3881',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+BPC73210 [
+  {
+    Key: 'CatalogID',
+    Value: '4084',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+BPC73212 [
+  {
+    Key: 'CatalogID',
+    Value: '4085',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+BPC73215 [
+  {
+    Key: 'CatalogID',
+    Value: '4086',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+BPC732210 [
+  {
+    Key: 'CatalogID',
+    Value: '4087',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+BPC732285 [
+  {
+    Key: 'CatalogID',
+    Value: '4088',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+BPC73285 [
+  {
+    Key: 'CatalogID',
+    Value: '4089',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+BPC73710 [
+  {
+    Key: 'CatalogID',
+    Value: '4090',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+BPC73770 [
+  {
+    Key: 'CatalogID',
+    Value: '4091',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+BPC73780 [
+  {
+    Key: 'CatalogID',
+    Value: '4092',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+BPC73810 [
+  {
+    Key: 'CatalogID',
+    Value: '4093',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+BPC73812 [
+  {
+    Key: 'CatalogID',
+    Value: '4094',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+BPC73870 [
+  {
+    Key: 'CatalogID',
+    Value: '4095',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+BPC73880 [
+  {
+    Key: 'CatalogID',
+    Value: '4096',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+BPC73890 [
+  {
+    Key: 'CatalogID',
+    Value: '4097',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+BPC84210 [
+  {
+    Key: 'CatalogID',
+    Value: '4112',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+BPC84212 [
+  {
+    Key: 'CatalogID',
+    Value: '4113',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+BPC84215 [
+  {
+    Key: 'CatalogID',
+    Value: '4114',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+BPC84221 [
+  {
+    Key: 'CatalogID',
+    Value: '4115',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+BPC842285 [
+  {
+    Key: 'CatalogID',
+    Value: '4116',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+BPC84285 [
+  {
+    Key: 'CatalogID',
+    Value: '4117',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+BPC84710 [
+  {
+    Key: 'CatalogID',
+    Value: '4118',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+BPC84770 [
+  {
+    Key: 'CatalogID',
+    Value: '4119',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+BPC84780 [
+  {
+    Key: 'CatalogID',
+    Value: '4120',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+BPC84810 [
+  {
+    Key: 'CatalogID',
+    Value: '4121',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+BPC84812 [
+  {
+    Key: 'CatalogID',
+    Value: '4122',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+BPC84870 [
+  {
+    Key: 'CatalogID',
+    Value: '4123',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+BPC84880 [
+  {
+    Key: 'CatalogID',
+    Value: '4124',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+BPC84890 [
+  {
+    Key: 'CatalogID',
+    Value: '4125',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+BPC92210 [
+  {
+    Key: 'CatalogID',
+    Value: '4140',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+BPC92212 [
+  {
+    Key: 'CatalogID',
+    Value: '4141',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+BPC92215 [
+  {
+    Key: 'CatalogID',
+    Value: '4142',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+BPC92221 [
+  {
+    Key: 'CatalogID',
+    Value: '4143',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+BPC92228 [
+  {
+    Key: 'CatalogID',
+    Value: '4144',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+BPC92280 [
+  {
+    Key: 'CatalogID',
+    Value: '4145',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+BPC92710 [
+  {
+    Key: 'CatalogID',
+    Value: '4146',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+BPC92770 [
+  {
+    Key: 'CatalogID',
+    Value: '4147',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+BPC92780 [
+  {
+    Key: 'CatalogID',
+    Value: '4148',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+BPC92810 [
+  {
+    Key: 'CatalogID',
+    Value: '4149',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+BPC92812 [
+  {
+    Key: 'CatalogID',
+    Value: '4150',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+BPC92870 [
+  {
+    Key: 'CatalogID',
+    Value: '4151',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+BPC92880 [
+  {
+    Key: 'CatalogID',
+    Value: '4152',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+BPC92890 [
+  {
+    Key: 'CatalogID',
+    Value: '4153',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+BPC96210 [
+  {
+    Key: 'CatalogID',
+    Value: '4182',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+BPC96212 [
+  {
+    Key: 'CatalogID',
+    Value: '4183',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+BPC96215 [
+  {
+    Key: 'CatalogID',
+    Value: '4184',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+BPC96221 [
+  {
+    Key: 'CatalogID',
+    Value: '4185',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+BPC96228 [
+  {
+    Key: 'CatalogID',
+    Value: '4186',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+BPC96280 [
+  {
+    Key: 'CatalogID',
+    Value: '4187',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+BPC96710 [
+  {
+    Key: 'CatalogID',
+    Value: '4188',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+BPC96770 [
+  {
+    Key: 'CatalogID',
+    Value: '4189',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+BPC96780 [
+  {
+    Key: 'CatalogID',
+    Value: '4190',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+BPC96810 [
+  {
+    Key: 'CatalogID',
+    Value: '4191',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+BPC96812 [
+  {
+    Key: 'CatalogID',
+    Value: '4192',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+BPC96870 [
+  {
+    Key: 'CatalogID',
+    Value: '4193',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+BPC96880 [
+  {
+    Key: 'CatalogID',
+    Value: '4194',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+BPC96890 [
+  {
+    Key: 'CatalogID',
+    Value: '4195',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+BPC97210 [
+  {
+    Key: 'CatalogID',
+    Value: '4196',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+BPC97212 [
+  {
+    Key: 'CatalogID',
+    Value: '4197',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+BPC97215 [
+  {
+    Key: 'CatalogID',
+    Value: '4198',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+BPC97221 [
+  {
+    Key: 'CatalogID',
+    Value: '4199',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+BPC97228 [
+  {
+    Key: 'CatalogID',
+    Value: '4200',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+BPC97280 [
+  {
+    Key: 'CatalogID',
+    Value: '4201',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+BPC97710 [
+  {
+    Key: 'CatalogID',
+    Value: '4202',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+BPC97770 [
+  {
+    Key: 'CatalogID',
+    Value: '4203',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+BPC97780 [
+  {
+    Key: 'CatalogID',
+    Value: '4204',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+BPC97810 [
+  {
+    Key: 'CatalogID',
+    Value: '4205',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+BPC97812 [
+  {
+    Key: 'CatalogID',
+    Value: '4206',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+BPC97870 [
+  {
+    Key: 'CatalogID',
+    Value: '4207',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+BPC97880 [
+  {
+    Key: 'CatalogID',
+    Value: '4208',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+BPC97890 [
+  {
+    Key: 'CatalogID',
+    Value: '4209',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+BDC89510 [
+  {
+    Key: 'CatalogID',
+    Value: '4359',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+BDC89512 [
+  {
+    Key: 'CatalogID',
+    Value: '4360',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+BDC89514 [
+  {
+    Key: 'CatalogID',
+    Value: '4361',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+BDC89540 [
+  {
+    Key: 'CatalogID',
+    Value: '4362',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+BDC89560 [
+  {
+    Key: 'CatalogID',
+    Value: '4363',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+BDC89570 [
+  {
+    Key: 'CatalogID',
+    Value: '4364',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+BDC89580 [
+  {
+    Key: 'CatalogID',
+    Value: '4365',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+BDC89711 [
+  {
+    Key: 'CatalogID',
+    Value: '4369',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+BDC89770 [
+  {
+    Key: 'CatalogID',
+    Value: '4370',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+BDC89780 [
+  {
+    Key: 'CatalogID',
+    Value: '4371',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+BDC89795 [
+  {
+    Key: 'CatalogID',
+    Value: '4372',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+BRS0351261 [
+  {
+    Key: 'CatalogID',
+    Value: '4393',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+BRS0351265 [
+  {
+    Key: 'CatalogID',
+    Value: '4394',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+BRS0351461 [
+  {
+    Key: 'CatalogID',
+    Value: '4395',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+BRS0351465 [
+  {
+    Key: 'CatalogID',
+    Value: '4396',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+BRS0351473 [
+  {
+    Key: 'CatalogID',
+    Value: '4397',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+BRS0351561 [
+  {
+    Key: 'CatalogID',
+    Value: '4398',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+BRS0351565 [
+  {
+    Key: 'CatalogID',
+    Value: '4399',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+BRS0351573 [
+  {
+    Key: 'CatalogID',
+    Value: '4400',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+BRS035161 [
+  {
+    Key: 'CatalogID',
+    Value: '4401',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+BRS035165 [
+  {
+    Key: 'CatalogID',
+    Value: '4402',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+BRS0351F6175N [
+  {
+    Key: 'CatalogID',
+    Value: '4403',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+BRS035361 [
+  {
+    Key: 'CatalogID',
+    Value: '4404',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+BRS035365 [
+  {
+    Key: 'CatalogID',
+    Value: '4405',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+BRS035461 [
+  {
+    Key: 'CatalogID',
+    Value: '4406',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+BRS035465 [
+  {
+    Key: 'CatalogID',
+    Value: '4407',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+BRS035661 [
+  {
+    Key: 'CatalogID',
+    Value: '4408',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+BRS035665 [
+  {
+    Key: 'CatalogID',
+    Value: '4409',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+BRS035761 [
+  {
+    Key: 'CatalogID',
+    Value: '4410',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+BRS035765 [
+  {
+    Key: 'CatalogID',
+    Value: '4411',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+BRS035861 [
+  {
+    Key: 'CatalogID',
+    Value: '4412',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+BRS035865 [
+  {
+    Key: 'CatalogID',
+    Value: '4413',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+BRS03710 [
+  {
+    Key: 'CatalogID',
+    Value: '4417',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+BRS03770 [
+  {
+    Key: 'CatalogID',
+    Value: '4418',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+BRS03780 [
+  {
+    Key: 'CatalogID',
+    Value: '4419',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+BRS03790 [
+  {
+    Key: 'CatalogID',
+    Value: '4420',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+BSLD89210 [
+  {
+    Key: 'CatalogID',
+    Value: '4421',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+BSLD89212 [
+  {
+    Key: 'CatalogID',
+    Value: '4422',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+BSLD89215 [
+  {
+    Key: 'CatalogID',
+    Value: '4423',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+BSLD89221 [
+  {
+    Key: 'CatalogID',
+    Value: '4424',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+BSLD89228 [
+  {
+    Key: 'CatalogID',
+    Value: '4425',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+BSLD89285 [
+  {
+    Key: 'CatalogID',
+    Value: '4426',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+BSLD89710 [
+  {
+    Key: 'CatalogID',
+    Value: '4427',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+BSLD89770 [
+  {
+    Key: 'CatalogID',
+    Value: '4428',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+BSLD89780 [
+  {
+    Key: 'CatalogID',
+    Value: '4429',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+BSLD89810 [
+  {
+    Key: 'CatalogID',
+    Value: '4430',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+BSLD89812 [
+  {
+    Key: 'CatalogID',
+    Value: '4431',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+BSLD89870 [
+  {
+    Key: 'CatalogID',
+    Value: '4432',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+BSLD89880 [
+  {
+    Key: 'CatalogID',
+    Value: '4433',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+BSLD89890 [
+  {
+    Key: 'CatalogID',
+    Value: '4434',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+F104188521+34 [
+  {
+    Key: 'CatalogID',
+    Value: '4459',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+F104188565+34 [
+  {
+    Key: 'CatalogID',
+    Value: '4460',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+F104200021+40 [
+  {
+    Key: 'CatalogID',
+    Value: '4463',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+F104200065+40 [
+  {
+    Key: 'CatalogID',
+    Value: '4466',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+F104208565+32 [
+  {
+    Key: 'CatalogID',
+    Value: '4469',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+F105188521+34 [
+  {
+    Key: 'CatalogID',
+    Value: '4478',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+F105188565+34 [
+  {
+    Key: 'CatalogID',
+    Value: '4479',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+F105189565+34 [
+  {
+    Key: 'CatalogID',
+    Value: '4481',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+F105200021+40 [
+  {
+    Key: 'CatalogID',
+    Value: '4482',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+F10520006155 [
+  {
+    Key: 'CatalogID',
+    Value: '4483',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+F105200065+40 [
+  {
+    Key: 'CatalogID',
+    Value: '4484',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+F10520007355 [
+  {
+    Key: 'CatalogID',
+    Value: '4486',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+F105208521+35 [
+  {
+    Key: 'CatalogID',
+    Value: '4487',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+F10520856150 [
+  {
+    Key: 'CatalogID',
+    Value: '4488',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+F105208565+32 [
+  {
+    Key: 'CatalogID',
+    Value: '4489',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+F10520857350 [
+  {
+    Key: 'CatalogID',
+    Value: '4491',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+F201215XX [
+  {
+    Key: 'CatalogID',
+    Value: '4641',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+F201210XX [
+  {
+    Key: 'CatalogID',
+    Value: '4642',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+F201212XX [
+  {
+    Key: 'CatalogID',
+    Value: '4643',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+F201285XX [
+  {
+    Key: 'CatalogID',
+    Value: '4644',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+F201710XX [
+  {
+    Key: 'CatalogID',
+    Value: '4645',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+F201770XX [
+  {
+    Key: 'CatalogID',
+    Value: '4646',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+F201780XX [
+  {
+    Key: 'CatalogID',
+    Value: '4647',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+F201810XX [
+  {
+    Key: 'CatalogID',
+    Value: '4648',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+F201812XX [
+  {
+    Key: 'CatalogID',
+    Value: '4649',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+F201870XX [
+  {
+    Key: 'CatalogID',
+    Value: '4651',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+F201880XX [
+  {
+    Key: 'CatalogID',
+    Value: '4652',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+F201890XX [
+  {
+    Key: 'CatalogID',
+    Value: '4653',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+F203215XX [
+  {
+    Key: 'CatalogID',
+    Value: '4654',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+F203210XX [
+  {
+    Key: 'CatalogID',
+    Value: '4655',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+F203212XX [
+  {
+    Key: 'CatalogID',
+    Value: '4656',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+F203285XX [
+  {
+    Key: 'CatalogID',
+    Value: '4657',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+F203710XX [
+  {
+    Key: 'CatalogID',
+    Value: '4658',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+F203770XX [
+  {
+    Key: 'CatalogID',
+    Value: '4659',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+F203780XX [
+  {
+    Key: 'CatalogID',
+    Value: '4660',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+F203810XX [
+  {
+    Key: 'CatalogID',
+    Value: '4661',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+F203812XX [
+  {
+    Key: 'CatalogID',
+    Value: '4662',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+F203870XX [
+  {
+    Key: 'CatalogID',
+    Value: '4664',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+F203880XX [
+  {
+    Key: 'CatalogID',
+    Value: '4665',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+F203890XX [
+  {
+    Key: 'CatalogID',
+    Value: '4666',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+F203910XX [
+  {
+    Key: 'CatalogID',
+    Value: '4667',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+F203912XX [
+  {
+    Key: 'CatalogID',
+    Value: '4668',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+F203980XX [
+  {
+    Key: 'CatalogID',
+    Value: '4669',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+F204215XX [
+  {
+    Key: 'CatalogID',
+    Value: '4670',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+F204210XX [
+  {
+    Key: 'CatalogID',
+    Value: '4671',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+F204212XX [
+  {
+    Key: 'CatalogID',
+    Value: '4672',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+F204285XX [
+  {
+    Key: 'CatalogID',
+    Value: '4673',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+F204710XX [
+  {
+    Key: 'CatalogID',
+    Value: '4674',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+F204770XX [
+  {
+    Key: 'CatalogID',
+    Value: '4675',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+F204780XX [
+  {
+    Key: 'CatalogID',
+    Value: '4676',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+F204810XX [
+  {
+    Key: 'CatalogID',
+    Value: '4677',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+F204812XX [
+  {
+    Key: 'CatalogID',
+    Value: '4678',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+F204870XX [
+  {
+    Key: 'CatalogID',
+    Value: '4680',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+F204880XX [
+  {
+    Key: 'CatalogID',
+    Value: '4681',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+F204890XX [
+  {
+    Key: 'CatalogID',
+    Value: '4682',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+F204910XX [
+  {
+    Key: 'CatalogID',
+    Value: '4683',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+F204912XX [
+  {
+    Key: 'CatalogID',
+    Value: '4684',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+F204980XX [
+  {
+    Key: 'CatalogID',
+    Value: '4685',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+F205215XX [
+  {
+    Key: 'CatalogID',
+    Value: '4686',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+F205210XX [
+  {
+    Key: 'CatalogID',
+    Value: '4687',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+F205212XX [
+  {
+    Key: 'CatalogID',
+    Value: '4688',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+F205285XX [
+  {
+    Key: 'CatalogID',
+    Value: '4689',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+F205710XX [
+  {
+    Key: 'CatalogID',
+    Value: '4690',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+F205770XX [
+  {
+    Key: 'CatalogID',
+    Value: '4691',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+F205780XX [
+  {
+    Key: 'CatalogID',
+    Value: '4692',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+F205810XX [
+  {
+    Key: 'CatalogID',
+    Value: '4693',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+F205812XX [
+  {
+    Key: 'CatalogID',
+    Value: '4694',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+F205870XX [
+  {
+    Key: 'CatalogID',
+    Value: '4696',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+F205880XX [
+  {
+    Key: 'CatalogID',
+    Value: '4697',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+F205890XX [
+  {
+    Key: 'CatalogID',
+    Value: '4698',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+F205910XX [
+  {
+    Key: 'CatalogID',
+    Value: '4699',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+F205912XX [
+  {
+    Key: 'CatalogID',
+    Value: '4700',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+F205980XX [
+  {
+    Key: 'CatalogID',
+    Value: '4701',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+F206215XX [
+  {
+    Key: 'CatalogID',
+    Value: '4702',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+F206210XX [
+  {
+    Key: 'CatalogID',
+    Value: '4703',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+F206212XX [
+  {
+    Key: 'CatalogID',
+    Value: '4704',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+F206285XX [
+  {
+    Key: 'CatalogID',
+    Value: '4705',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+F206710XX [
+  {
+    Key: 'CatalogID',
+    Value: '4706',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+F206770XX [
+  {
+    Key: 'CatalogID',
+    Value: '4707',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+F206780XX [
+  {
+    Key: 'CatalogID',
+    Value: '4708',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+F206810XX [
+  {
+    Key: 'CatalogID',
+    Value: '4709',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+F206812XX [
+  {
+    Key: 'CatalogID',
+    Value: '4710',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+F206870XX [
+  {
+    Key: 'CatalogID',
+    Value: '4712',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+F206880XX [
+  {
+    Key: 'CatalogID',
+    Value: '4713',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+F206890XX [
+  {
+    Key: 'CatalogID',
+    Value: '4714',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+F206910XX [
+  {
+    Key: 'CatalogID',
+    Value: '4715',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+F206912XX [
+  {
+    Key: 'CatalogID',
+    Value: '4716',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+F206980XX [
+  {
+    Key: 'CatalogID',
+    Value: '4717',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+F208215XX [
+  {
+    Key: 'CatalogID',
+    Value: '4718',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+F208210XX [
+  {
+    Key: 'CatalogID',
+    Value: '4719',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+F208212XX [
+  {
+    Key: 'CatalogID',
+    Value: '4720',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+F208285XX [
+  {
+    Key: 'CatalogID',
+    Value: '4721',
+    Status: '200',
+    Message: 'Updated successfully'
+  }
+]
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node ./server/server.js`[39m
+no need to update years
+years 91
+Database building is done!

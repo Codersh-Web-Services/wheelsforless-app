@@ -388,43 +388,79 @@ client.connect(async (err) => {
 
 
 
-  let wheelsforlesscol = client.db("WheelPros_data").collection("wheelforless_backup");
+  let wheelsforlesscol = client.db("WheelPros_data").collection("wheelforless_backuprevised");
   let wheelsforlessdatastore = await wheelsforlesscol.find({}).toArray()
 
   // wheelpros store 
   let wheelprocol = client.db("WheelPros_data").collection("wheelProsSkuCollection");
-  let wheelprosdatastore = await wheelprocol.find({}).toArray()
 
-  console.log(wheelprosdatastore)
 
-  // for (let { sku: wheelSku, filter: wheelFiler } of wheelsforlessdatastore) {
-  //   console.log(wheelSku)
-  // }
-  // axios
-  //   .get(
-  //     `${process.env.PROD_API_URL}https://api.wheelpros.com/products/v1/search/wheel?years=${year}&makes=${make}&=models`,
-  //     {
-  //       headers: {
-  //         Authorization: `Bearer ${process.env.WHEELPROS_TOKEN}`,
-  //         "Content-Type": "application/json",
-  //       },
-  //     }
-  //   )
-  //   .then(function ({ data }) {
-  //     // handle success
-  //     let years = data;
-  //     console.log(years);
-  //   })
-  //   .catch(function (error) {
-  //     // handle error
-  //     console.log(error);
-  //   })
-  //   .then(function () {
-  //     // always executed
-  //   });
+  var agent = new https.Agent({
+    rejectUnauthorized: false,
+  });
+
+  for (let { sku: wheelSku, filter: wheelFilter, CatalogID: catId } of wheelsforlessdatastore) {
+    // console.log(wheelSku)
+    var newFilterData = wheelFilter
+    var hashword = {}
+    let wheelprosdatastore = await wheelprocol.find({ sku: wheelSku }).toArray()
+
+    for (let { sku, filterData } of wheelprosdatastore) {
+      if (!Object.keys(hashword).includes(filterData)) {
+        hashword[filterData] = true
+        if (newFilterData == "") {
+
+          newFilterData = filterData
+        } else {
+          newFilterData = newFilterData + "|" + filterData
+
+        }
+      }
+
+    }
+    console.log(newFilterData)
+    axios
+      .put(
+        `https://apirest.3dcart.com/3dCartWebAPI/v2/Products`,
+
+        [{
+          'SKUInfo': {
+            'CatalogID': catId,
+            'SKU': wheelSku,
+
+          },
+          'ExtraField10': newFilterData
+        }
+        ],
+        {
+
+          httpsAgent: agent,
+          headers: {
+            "Content-Type": "application/json",
+            'Accept': 'application/json',
+            SecureURL: "https://www.wheelsforless.com/",
+            PrivateKey: "1c99b31f86a2f02a97ea86bdbbfc87bf",
+            Token: "cee84b61220f469b65b45456d6b1a430",
+          },
+
+        }
+      )
+      .then(function ({ data }) {
+        // handle success
+
+        console.log(wheelSku, " Has status ", data)
+      })
+      .catch(function (error) {
+        // handle error
+        console.log(error.response);
+      })
+      .then(function () {
+        // always executed
+      });
+  }
 
   // Fetches Shift4Shop store products
-  collection = client.db("WheelPros_data").collection("wheelforless_backup");
+  collection = client.db("WheelPros_data").collection("wheelforless_backuprevised");
   var offset = 0;
 
   const fetch3dcart = () => {
@@ -436,7 +472,6 @@ client.connect(async (err) => {
       axios
         .get(
           `${process.env.STORE_API_URL}/products?limit=200&offset=${offset}`,
-
           {
             httpsAgent: agent,
             headers: {
@@ -454,7 +489,7 @@ client.connect(async (err) => {
           // const { ExtraField10: filterfield } = data[0];
           let DataArr = [];
           data.forEach((e) => {
-            DataArr.push({ sku: e.SKUInfo.SKU, filter: e.ExtraField10 });
+            DataArr.push({ sku: e.SKUInfo.SKU, filter: e.ExtraField10, CatalogID: e.SKUInfo.CatalogID });
           });
           await collection.insertMany(DataArr);
           fetch3dcart();
