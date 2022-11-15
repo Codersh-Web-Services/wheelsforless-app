@@ -1,4 +1,4 @@
-import * as dotenv from "dotenv"; // see https://github.com/motdotla/dotenv#how-do-i-use-dotenv-with-import
+import * as dotenv from "dotenv";
 dotenv.config();
 import { client } from "./db/connection.js";
 import axios from "axios";
@@ -12,15 +12,11 @@ client.connect(async (err) => {
   var TokenFromDB = await collection.find({ _id: 1 }).toArray();
   var { accessToken: token, time: lastFetchedAuth } = TokenFromDB[0] || [{ accessToken: null, time: 0 }];
 
-  // console.log("ourside token var = ", token)
-  // Fetch the auth token if the last fetched token is more than 59 minutes ago
-
   const authFetch = async () => {
 
     let authCollection = client.db("WheelPros_data").collection("auth");
     TokenFromDB = await authCollection.find({ _id: 1 }).toArray();
     ({ accessToken: token, time: lastFetchedAuth } = TokenFromDB[0] || [{ accessToken: null, time: 0 }])
-    // console.log(new Date().getTime() / 1000 - lastFetchedAuth)
 
     let axiosConfig = {
       headers: {
@@ -61,55 +57,52 @@ client.connect(async (err) => {
         console.log("AXIOS ERROR: ", err);
       });
   }
-  // await authFetch()
-  // console.log("ourside token var = ", token)
-
-  // setInterval(authFetch, 3590000)
-
 
   // Fetches Wheelpros vehicle years
-  collection = client.db("WheelPros_data").collection("wheelsDB");
-  var yearsFromDB = await collection.find({ parent: null }).toArray();
+  const yearsFetch = async () => {
 
-  // if (false)
-  if (yearsFromDB.length != 91) {
-    await axios
-      .get(`${process.env.PROD_API_URL}/vehicles/v1/years`, {
-        headers: {
-          Authorization: `Bearer ${token}`,
-          "Content-Type": "application/json",
-        },
-      })
-      .then(async function ({ data }) {
-        // handle success
-        let years = data;
-        // console.log(years);
-        const yearArr = [];
-        years.forEach(async (year, index) => {
-          yearArr.push({
-            year,
-            parent: null,
+
+    let collection = client.db("WheelPros_data").collection("wheelsDB");
+    let yearsFromDB = await collection.find({ parent: null }).toArray();
+
+    if (yearsFromDB.length != 91) {
+      await axios
+        .get(`${process.env.PROD_API_URL}/vehicles/v1/years`, {
+          headers: {
+            Authorization: `Bearer ${token}`,
+            "Content-Type": "application/json",
+          },
+        })
+        .then(async function ({ data }) {
+          // handle success
+          let years = data;
+          const yearArr = [];
+          years.forEach(async (year, index) => {
+            yearArr.push({
+              year,
+              parent: null,
+            });
           });
+          await collection.insertMany(yearArr);
+
+        })
+        .catch(function ({ response }) {
+          // handle error
+          console.log(response.status);
+        })
+        .then(async function () {
+          // always executed
+          yearsFromDB = await collection.find({ parent: null }).toArray();
+          console.log(yearsFromDB.length)
         });
-        await collection.insertMany(yearArr);
-
-      })
-      .catch(function ({ response }) {
-        // handle error
-        console.log(response.status);
-      })
-      .then(async function () {
-        // always executed
-        yearsFromDB = await collection.find({ parent: null }).toArray();
-        console.log(yearsFromDB.length)
-      });
 
 
-  } else {
-    console.log("no need to update years");
+    } else {
+      console.log("no need to update years");
+    }
+    console.log("years", yearsFromDB.length)
   }
-  console.log("years", yearsFromDB.length)
-  // if (false)
+
   const fetchMakes = async () => {
     yearsFromDB = await collection.find({ parent: null }).toArray();
     for (let [index, year] of yearsFromDB.entries()) {
@@ -154,7 +147,6 @@ client.connect(async (err) => {
         });
     };
   }
-  // await fetchMakes()
   // Fetches Wheelpros vehicle makes
   const fetchModels = async () => {
 
@@ -165,9 +157,7 @@ client.connect(async (err) => {
     // .distinct( "modelData" )
     console.log("make data bois", makeDataFromDB.length)
 
-    //  console.log(submodelsData)
 
-    // if (false)
     for (let [i, make] of makeDataFromDB.entries()) {
       // console.log(`Working on Makes Array to populate models :  ${i} of ${makeDataFromDB.length}`);
       await axios.get(
@@ -212,9 +202,6 @@ client.connect(async (err) => {
     console.log("Got all the models")
 
   }
-  //  fetchModels()
-  // if (false)
-
 
   const fetchSubmodels = async () => {
     const modelDataFromDB = await collection
@@ -258,9 +245,6 @@ client.connect(async (err) => {
 
     }
   }
-  // await fetchSubmodels()
-
-  // await  client.close();
 
   // Fetches Wheelpros vehicle Skus
 
@@ -323,8 +307,6 @@ client.connect(async (err) => {
           await fetchSkusBasesOnSubmodels()
         }
       } else {
-        // console.log(`${process.env.PROD_API_URL}/products/v1/search/wheel?vehicleYear=${dataSearch[0]}&vehicleMake=${dataSearch[1]}&vehicleModel=${dataSearch[2]}`)
-        // if (false)
         const fetchSkuBasedOnModels = async (offset = 0) => {
           await axios
             .get(
@@ -347,9 +329,7 @@ client.connect(async (err) => {
               }
               if (SkuArr.length > 0) {
                 const result = await wheelsProSkuCollection.insertMany(
-
                   SkuArr
-
                 );
                 console.log(result.acknowledged, `for ${submodelData.modelData}`)
 
@@ -375,88 +355,78 @@ client.connect(async (err) => {
     }
   }
 
-
-  // await fetchMakes()
-  // await fetchModels()
-  // await fetchSubmodels()
-  // await getSkus()
-  console.log("Database building is done!")
-  clearInterval(authFetch)
-
-
   // Updates to the datastore of wheelsforless
+  const FinalDataPushToStore = async () => {
+
+    let wheelsforlesscol = client.db("WheelPros_data").collection("wheelforless_backuprevised");
+    let wheelsforlessdatastore = await wheelsforlesscol.find({}).toArray()
+
+    // wheelpros store 
+    let wheelprocol = client.db("WheelPros_data").collection("wheelProsSkuCollection");
 
 
+    var agent = new https.Agent({
+      rejectUnauthorized: false,
+    });
 
-  let wheelsforlesscol = client.db("WheelPros_data").collection("wheelforless_backuprevised");
-  let wheelsforlessdatastore = await wheelsforlesscol.find({}).toArray()
+    for (let { sku: wheelSku, filter: wheelFilter, CatalogID: catId } of wheelsforlessdatastore) {
+      var newFilterData = wheelFilter
+      var hashword = {}
+      let wheelprosdatastore = await wheelprocol.find({ sku: wheelSku }).toArray()
 
-  // wheelpros store 
-  let wheelprocol = client.db("WheelPros_data").collection("wheelProsSkuCollection");
+      for (let { sku, filterData } of wheelprosdatastore) {
+        if (!Object.keys(hashword).includes(filterData)) {
+          hashword[filterData] = true
+          if (newFilterData == "") {
 
+            newFilterData = filterData
+          } else {
+            newFilterData = newFilterData + "|" + filterData
 
-  var agent = new https.Agent({
-    rejectUnauthorized: false,
-  });
-
-  for (let { sku: wheelSku, filter: wheelFilter, CatalogID: catId } of wheelsforlessdatastore) {
-    // console.log(wheelSku)
-    var newFilterData = wheelFilter
-    var hashword = {}
-    let wheelprosdatastore = await wheelprocol.find({ sku: wheelSku }).toArray()
-
-    for (let { sku, filterData } of wheelprosdatastore) {
-      if (!Object.keys(hashword).includes(filterData)) {
-        hashword[filterData] = true
-        if (newFilterData == "") {
-
-          newFilterData = filterData
-        } else {
-          newFilterData = newFilterData + "|" + filterData
-
+          }
         }
+
       }
+      console.log(newFilterData)
+      axios
+        .put(
+          `https://apirest.3dcart.com/3dCartWebAPI/v2/Products`,
 
+          [{
+            'SKUInfo': {
+              'CatalogID': catId,
+              'SKU': wheelSku,
+
+            },
+            'ExtraField10': newFilterData
+          }
+          ],
+          {
+
+            httpsAgent: agent,
+            headers: {
+              "Content-Type": "application/json",
+              'Accept': 'application/json',
+              SecureURL: process.env.STORE_URL,
+              PrivateKey: process.env.PRIVATE_KEY,
+              Token: process.env.AUTH_TOKEN,
+            },
+
+          }
+        )
+        .then(function ({ data }) {
+          // handle success
+
+          console.log(wheelSku, " Has status ", data)
+        })
+        .catch(function (error) {
+          // handle error
+          console.log(error.response);
+        })
+        .then(function () {
+          // always executed
+        });
     }
-    console.log(newFilterData)
-    axios
-      .put(
-        `https://apirest.3dcart.com/3dCartWebAPI/v2/Products`,
-
-        [{
-          'SKUInfo': {
-            'CatalogID': catId,
-            'SKU': wheelSku,
-
-          },
-          'ExtraField10': newFilterData
-        }
-        ],
-        {
-
-          httpsAgent: agent,
-          headers: {
-            "Content-Type": "application/json",
-            'Accept': 'application/json',
-            SecureURL: "https://www.wheelsforless.com/",
-            PrivateKey: "1c99b31f86a2f02a97ea86bdbbfc87bf",
-            Token: "cee84b61220f469b65b45456d6b1a430",
-          },
-
-        }
-      )
-      .then(function ({ data }) {
-        // handle success
-
-        console.log(wheelSku, " Has status ", data)
-      })
-      .catch(function (error) {
-        // handle error
-        console.log(error.response);
-      })
-      .then(function () {
-        // always executed
-      });
   }
 
   // Fetches Shift4Shop store products
@@ -506,6 +476,25 @@ client.connect(async (err) => {
       console.log(error);
     }
   };
-  // fetch3dcart();
-  console.log("Shift4Shop is done")
+
+
+  /***
+   * 
+   * Run Store & Push Functions 
+   */
+  fetch3dcart();
+  await authFetch()
+  console.log("Data fetch from Shift4Shop is done!")
+  // Fetch the auth token if the last fetched token is more than 59 minutes ago
+  setInterval(authFetch, 3590000)
+  await yearsFetch()
+  await fetchMakes()
+  await fetchModels()
+  await fetchSubmodels()
+  await getSkus()
+  clearInterval(authFetch)
+  console.log("Database building is done!")
+  await FinalDataPushToStore()
+  await client.close();
+
 });
